@@ -11,7 +11,7 @@
                 "target": "_self",
                 "rel": "",
                 "link": "empty",
-                "cssClass": "",
+                "cssClass": "home-index-location",
                 "items": []
             },
             {
@@ -145,6 +145,40 @@
                         "rel": "",
                         "link": 8,
                         "cssClass": "",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id": 1591114200070,
+                "label": "EN",
+                "title": "",
+                "type": "internal",
+                "target": "_self",
+                "rel": "",
+                "link": "index.html",
+                "cssClass": "language",
+                "items": [
+                    {
+                        "id": 1591114208964,
+                        "label": "IT",
+                        "title": "",
+                        "type": "internal",
+                        "target": "_self",
+                        "rel": "",
+                        "link": "index.html",
+                        "cssClass": "language-it",
+                        "items": []
+                    },
+                    {
+                        "id": 1591114219879,
+                        "label": "EN",
+                        "title": "",
+                        "type": "internal",
+                        "target": "_self",
+                        "rel": "",
+                        "link": "index.html",
+                        "cssClass": "language-en",
                         "items": []
                     }
                 ]
