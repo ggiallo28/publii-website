@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "73047665f2c0104f0c35ae5e8e871549"
+        "md5": "357c9c6228165b80cc456c8ba525696d"
     },
     {
         "path": "StaticWebSite.svg",
@@ -197,7 +197,7 @@
     {
         "path": "/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "cb0877dd814b859c4119abaf999ce599"
+        "md5": "b6ec70c802117fd0f32f44b1c8fe8130"
     },
     {
         "path": "automation",
@@ -207,17 +207,17 @@
     {
         "path": "/automation/index.html",
         "type": "file",
-        "md5": "392d3410b1ac8f305e4b8ebdba27bf1f"
+        "md5": "1e21ab475dece90c673d7c4f4cccf3ae"
     },
     {
         "path": "cloudoformation-iac.html",
         "type": "file",
-        "md5": "b8e5ea70307cc070af9f1c378c949163"
+        "md5": "e802c4a53536a149419bc43373c5830e"
     },
     {
         "path": "do-you-automate.html",
         "type": "file",
-        "md5": "2e0b702d84a746037714188f837eea19"
+        "md5": "8cb87f34c1ff791c7077378cf3775239"
     },
     {
         "path": "feed.json",
@@ -227,7 +227,7 @@
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "355fb614422ea3ce89b4cb515398572a"
+        "md5": "0273c26805a2a5a96b5e130f4ddc3428"
     },
     {
         "path": "guide",
@@ -237,22 +237,22 @@
     {
         "path": "/guide/index.html",
         "type": "file",
-        "md5": "38422c6cdadbc4a44b260c5ac86dde27"
+        "md5": "78c36082144d293438163f71627c9770"
     },
     {
         "path": "how-to-create-a-personal-website.html",
         "type": "file",
-        "md5": "0e196bf5ec5cd8a969f59fcf61523e7e"
+        "md5": "90ec9e8d6b9001ac50448cc11628bca3"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "75a035177b0b393918417358cb84fff3"
+        "md5": "36b3e1e3c289af84242bcf5c802857bf"
     },
     {
         "path": "initial-commit.html",
         "type": "file",
-        "md5": "0011258bc92e032087d3f9b673083beb"
+        "md5": "90ac8761f30b6b302d62e32f101481d4"
     },
     {
         "path": "media",
@@ -712,7 +712,7 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "f3681e61394e85c27bfbdc9438132f3b"
+        "md5": "246c2961339b4c20a93fd904a864c70d"
     },
     {
         "path": "sitemap.xml",
@@ -732,7 +732,7 @@
     {
         "path": "/talks/index.html",
         "type": "file",
-        "md5": "39594533119946f6353e128c70148567"
+        "md5": "c816f50635b0bf9643403d6a17128715"
     },
     {
         "path": "where-everything-started",
@@ -742,6 +742,6 @@
     {
         "path": "/where-everything-started/index.html",
         "type": "file",
-        "md5": "dcee8b4f17ce1d5ce5eacd6c96443746"
+        "md5": "c0eaaa3e5ba05832502838dee270d0c3"
     }
 ]

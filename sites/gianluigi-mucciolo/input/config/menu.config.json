@@ -153,10 +153,10 @@
                 "id": 1591114200070,
                 "label": "EN",
                 "title": "",
-                "type": "internal",
+                "type": "separator",
                 "target": "_self",
                 "rel": "",
-                "link": "index.html",
+                "link": "",
                 "cssClass": "language",
                 "items": [
                     {
