@@ -1,0 +1,113 @@
+{{> head}}
+{{> navbar}}
+{{#checkIf @config.custom.frontSource '==' "post" }}
+   {{> frontpage-post}}
+{{else}}
+   <main>
+      <div class="hero wrapper">
+         {{{@config.custom.textHero}}}
+      </div>
+      {{#checkIfAll @config.custom.filters tags}}
+         <nav class="filter">
+            <ul class="filter__button-group">
+               {{#if @config.custom.filtersLabel}}
+                  <li>
+                     <strong>{{@config.custom.filtersLabel}}</strong>
+                  </li>
+               {{/if}}
+               {{#if @config.custom.filtersAllPhrase}}
+                  <li>
+                     <button class="filter__item is-active" data-filter="*">{{@config.custom.filtersAllPhrase}}</button>
+                  </li>
+               {{/if}}
+               {{#each tags}}
+                  <li>
+                     <button class="filter__item" data-filter=".{{slug}}">{{name}}</button>
+                  </li>
+               {{/each}}
+            </ul>
+         </nav>
+      {{/checkIfAll}}
+      {{#checkIf @config.custom.cardsLayout '==' "compact" }}
+         <div class="l-col l-col{{@config.custom.layoutFrontpage}}">
+            {{#each posts}}
+               <article
+                  class="c-card{{#isFeatured}} c-card--compact c-card--featured{{/isFeatured}} {{#each tags}}{{slug}} {{/each}}">
+                  <a href="{{url}}" class="c-card__link">
+                     {{#featuredImage}}                        
+                       <div class="c-card__header">
+                          <img
+                              src="{{url}}"
+                              {{#if @config.site.responsiveImages}}
+                                 {{responsiveImageAttributes 'featuredImage' srcset.cards sizes.cards}}
+                              {{/if}}
+                              {{ lazyload "lazy" }}
+                              height="{{height}}"
+                              width="{{width}}"
+                              alt="{{alt}}">
+                       </div>                        
+                     {{/featuredImage}}
+                     <div class="c-card__body c-card__body--compact">
+                        <div class="c-card__text c-card__text--compact">
+                           <h2>
+                              {{title}}
+                           </h2>
+                           <p>
+                              <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}">
+                                 {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                                    {{date createdAt @config.custom.formatDate}}
+                                 {{else}}
+                                    {{date createdAt @config.custom.formatDateCustom}}
+                                 {{/checkIf}}
+                              </time>
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </article>
+            {{/each}}
+         </div>
+      {{else}}
+         <div class="l-col l-col{{@config.custom.layoutFrontpage}}">
+            {{#each posts}}
+               <article
+                  class="c-card{{#isFeatured}} c-card--featured{{/isFeatured}} {{#each tags}}{{slug}} {{/each}}">
+                  <a href="{{url}}" class="c-card__link">
+                     {{#featuredImage}}
+                        <div class="c-card__header">
+                          <img
+                              src="{{url}}"
+                              {{#if @config.site.responsiveImages}}
+                                 {{responsiveImageAttributes 'featuredImage' srcset.cards sizes.cards}}
+                              {{/if}}
+                              {{ lazyload "lazy" }}
+                              height="{{height}}"
+                              width="{{width}}"
+                              alt="{{alt}}">
+                       </div> 
+                     {{/featuredImage}}
+                     <div class="c-card__body">
+                        <div class="c-card__text">
+                           <h2>
+                              {{title}}
+                           </h2>
+                           <p>
+                              <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}">
+                                 {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                                    {{date createdAt @config.custom.formatDate}}
+                                 {{else}}
+                                    {{date createdAt @config.custom.formatDateCustom}}
+                                 {{/checkIf}}
+                              </time>
+                           </p>
+                        </div>
+                     </div>
+                  </a>
+               </article>
+            {{/each}}
+         </div>
+      {{/checkIf}}
+      {{> pagination}}
+   </main>
+{{/checkIf}}
+{{> footer}}

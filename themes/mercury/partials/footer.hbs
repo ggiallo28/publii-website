@@ -1,0 +1,125 @@
+<footer class="footer">
+   {{#if @config.custom.copyrightText}}
+      <div class="footer__copyright">
+         {{{@config.custom.copyrightText}}}
+      </div>
+   {{/if}}
+   {{#if @config.custom.socialButtons}}
+      <div class="footer__social">
+         {{#if @config.custom.socialFacebook}}
+            <a href="{{@config.custom.socialFacebook}}" class="facebook" aria-label="Facebook">
+               <svg class="icon">
+                  <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#facebook"/>
+               </svg>
+            </a>
+         {{/if}}
+         {{#if @config.custom.socialTwitter}}
+            <a href="{{@config.custom.socialTwitter}}" class="twitter" aria-label="Twitter">
+               <svg class="icon">
+                  <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#twitter"/>
+               </svg>
+            </a>
+         {{/if}}         
+         {{#if @config.custom.socialInstagram}}
+            <a href="{{@config.custom.socialInstagram}}" class="instagram" aria-label="Instagram">
+               <svg class="icon">
+                  <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#instagram"/>
+               </svg>
+            </a>
+         {{/if}}
+         {{#if @config.custom.socialLinkedin}}
+            <a href="{{@config.custom.socialLinkedin}}" class="linkedin" aria-label="LinkedIn">
+               <svg class="icon">
+                  <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#linkedin"/>
+               </svg>
+            </a>
+         {{/if}}
+         {{#if @config.custom.socialVimeo}}
+            <a href="{{@config.custom.socialVimeo}}" class="vimeo" aria-label="Vimeo">
+               <svg class="icon">
+                  <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#vimeo"/>
+               </svg>
+            </a>
+         {{/if}}
+         {{#if @config.custom.socialPinterest}}
+            <a href="{{@config.custom.socialPinterest}}" class="pinterest" aria-label="Pinterest">
+               <svg class="icon">
+                  <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#pinterest"/>
+               </svg>
+            </a>
+         {{/if}}
+         {{#if @config.custom.socialYoutube}}
+            <a href="{{@config.custom.socialYoutube}}" class="youtube" aria-label="Youtube">
+               <svg class="icon">
+                  <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#youtube"/>
+               </svg>
+            </a>
+         {{/if}}
+      </div>
+   {{/if}}
+</footer>
+</div>
+
+<script defer src="{{js "scripts.min.js"}}"></script>
+
+<script>
+   window.publiiThemeMenuConfig = {    
+        mobileMenuMode: '{{@config.custom.mobilemenu}}',
+        animationSpeed: 300,
+        submenuWidth: {{#checkIf @config.custom.submenu '==' "auto" }}'auto'{{else}}{{@config.custom.submenuWidth}}{{/checkIf}},
+        doubleClickTime: 500,
+        mobileMenuExpandableSubmenus: {{@config.custom.mobilemenuExpandableSubmenus}}, 
+        relatedContainerForOverlayMenuSelector: '.top',
+   };
+</script>
+
+{{#checkIf @config.custom.frontSource '==' "default"}}
+   {{#is "index,tag,author"}}
+      <script defer src="{{js "isotope.pkgd.min.js"}}"></script>
+      <script>window.addEventListener("DOMContentLoaded",function(){var j=new Isotope(".l-col",{itemSelector:".c-card",percentPosition:true,layoutMode:"{{@config.custom.gridType}}",transitionDuration:"{{@config.custom.gridTransition}}s",masonry:{columnWidth:".c-card"}});var g=document.querySelector(".filter__button-group");if(g){g.addEventListener("click",function(i){if(!matchesSelector(i.target,"button")){return}var k=i.target.getAttribute("data-filter");k=k;j.arrange({filter:k})});var b=document.querySelectorAll(".filter__button-group");for(var c=0,e=b.length;c<e;c++){var d=b[c];h(d)}function h(i){i.addEventListener("click",function(k){if(!matchesSelector(k.target,"button")){return}i.querySelector(".is-active").classList.remove("is-active");k.target.classList.add("is-active")})}}var a=document.querySelector(".l-col");var f=document.querySelectorAll(".c-card");a.classList.add("is-visible");j.revealItemElements(f)});</script>
+   {{/is}}
+{{else}}
+   {{#is "tag,author"}}
+      <script defer src="{{js "isotope.pkgd.min.js"}}"></script>
+      <script>window.addEventListener("DOMContentLoaded",function(){var j=new Isotope(".l-col",{itemSelector:".c-card",percentPosition:true,layoutMode:"{{@config.custom.gridType}}",transitionDuration:"{{@config.custom.gridTransition}}s",masonry:{columnWidth:".c-card"}});var g=document.querySelector(".filter__button-group");if(g){g.addEventListener("click",function(i){if(!matchesSelector(i.target,"button")){return}var k=i.target.getAttribute("data-filter");k=k;j.arrange({filter:k})});var b=document.querySelectorAll(".filter__button-group");for(var c=0,e=b.length;c<e;c++){var d=b[c];h(d)}function h(i){i.addEventListener("click",function(k){if(!matchesSelector(k.target,"button")){return}i.querySelector(".is-active").classList.remove("is-active");k.target.classList.add("is-active")})}}var a=document.querySelector(".l-col");var f=document.querySelectorAll(".c-card");a.classList.add("is-visible");j.revealItemElements(f)});</script>
+   {{/is}}
+{{/checkIf}}
+
+{{#if @config.site.mediaLazyLoad}}
+    <script>        
+        var images = document.querySelectorAll('img[loading]');
+
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }
+    </script>
+{{/if}}
+{{#is "post"}}
+   {{#post}}
+      {{#if hasGallery}}
+          {{> photoswipe}}
+      {{/if}}
+  {{/post}}
+{{/is}}
+{{#checkIf @config.custom.frontSource '==' "post"}}
+   {{#checkIf @config.custom.frontGallery '==' true}}
+      {{#is "index"}}
+          {{> photoswipe}}
+      {{/is}}
+   {{/checkIf}}
+{{/checkIf}}
+
+{{#if @renderer.previewMode}}
+<script defer src="{{js "svg2js.js"}}"></script>
+<script defer src="{{js "svg-fix.js"}}"></script>
+{{/if}}
+{{{@footerCustomCode}}}
+{{{ publiiFooter }}}
+</body>
+</html>

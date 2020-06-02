@@ -1,0 +1,45 @@
+<header class="header" id="js-header">
+
+   <a href="{{@website.url}}" class="logo">
+      {{#if @website.logo}}
+         <img src="{{@website.logo}}" alt="{{@website.name}}">
+      {{else}}
+         {{@website.name}}
+      {{/if}}
+   </a>
+
+   {{#if menus.mainMenu}}
+      <nav class="navbar js-navbar">
+         <button class="navbar__toggle js-toggle" aria-label="Menu">
+            <span class="navbar__toggle-box">
+               <span class="navbar__toggle-inner">{{ translate 'partials.menu.Menu' }}</span>
+            </span>
+         </button>
+         {{> menu menus.mainMenu}}
+      </nav>
+   {{/if}}
+
+   {{#if @config.custom.search}}
+      <div class="search">
+          <div class="search__overlay js-search-overlay">
+            <form action="{{@website.searchUrl}}" class="search__form">
+               <input
+                  class="search__input js-search-input"
+                  type="search"
+                  name="{{@config.custom.searchParam}}"
+                  placeholder="{{ translate 'search.placeholder' }}"
+                  autofocus="autofocus"/>
+               <button class="search__submit">{{ translate 'search.submit' }}</button>
+            </form>
+         </div>
+         <button
+            class="search__btn js-search-btn"
+            aria-label="{{ translate 'search.search' }}">
+            <svg role="presentation" focusable="false" height="18" width="18">
+               <use xlink:href="{{@website.assetsUrl}}/svg/svg-map.svg#search"/>
+            </svg>
+         </button>
+      </div>
+   {{/if}}
+
+</header>

@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Menu",
+        "position": "mainMenu",
+        "items": [
+            {
+                "id": 1590852135235,
+                "label": "Home",
+                "title": "",
+                "type": "frontpage",
+                "target": "_self",
+                "rel": "",
+                "link": "empty",
+                "cssClass": "",
+                "items": []
+            },
+            {
+                "id": 1590853819211,
+                "label": "Categories",
+                "title": "",
+                "type": "separator",
+                "target": "_self",
+                "rel": "",
+                "link": "",
+                "cssClass": "",
+                "items": [
+                    {
+                        "id": 1590853830832,
+                        "label": "Guide",
+                        "title": "",
+                        "type": "tag",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 7,
+                        "cssClass": "",
+                        "items": []
+                    },
+                    {
+                        "id": 1590854771430,
+                        "label": "Automation",
+                        "title": "",
+                        "type": "tag",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 5,
+                        "cssClass": "",
+                        "items": []
+                    },
+                    {
+                        "id": 1590936790968,
+                        "label": "Talks",
+                        "title": "",
+                        "type": "tag",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 6,
+                        "cssClass": "",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id": 1590851831371,
+                "label": "Resume",
+                "title": "",
+                "type": "external",
+                "target": "_self",
+                "rel": "",
+                "link": "http://www.freeme.name/cv",
+                "cssClass": "",
+                "items": [
+                    {
+                        "id": 1590854458914,
+                        "label": "Web View",
+                        "title": "",
+                        "type": "external",
+                        "target": "_self",
+                        "rel": "",
+                        "link": "http://www.freeme.name/cv/",
+                        "cssClass": "",
+                        "items": []
+                    },
+                    {
+                        "id": 1590854347873,
+                        "label": "Download",
+                        "title": "",
+                        "type": "external",
+                        "target": "_self",
+                        "rel": "",
+                        "link": "http://www.freeme.name/cv/vitae.pdf",
+                        "cssClass": "",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id": 1590851797866,
+                "label": "About me",
+                "title": "",
+                "type": "separator",
+                "target": "_self",
+                "rel": "",
+                "link": "",
+                "cssClass": "",
+                "items": [
+                    {
+                        "id": 1590851813846,
+                        "label": "Author",
+                        "title": "",
+                        "type": "author",
+                        "target": "_self",
+                        "rel": "",
+                        "link": "gianluigi-mucciolo",
+                        "cssClass": "",
+                        "items": []
+                    },
+                    {
+                        "id": 1590851898658,
+                        "label": "LinkedIn",
+                        "title": "",
+                        "type": "external",
+                        "target": "_self",
+                        "rel": "",
+                        "link": "https://www.linkedin.com/in/mucciolo91/",
+                        "cssClass": "",
+                        "items": []
+                    },
+                    {
+                        "id": 1590851929787,
+                        "label": "GitHub",
+                        "title": "",
+                        "type": "external",
+                        "target": "_self",
+                        "rel": "",
+                        "link": "https://github.com/ggiallo28",
+                        "cssClass": "",
+                        "items": []
+                    },
+                    {
+                        "id": 1591034127218,
+                        "label": "Initial Commit",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 8,
+                        "cssClass": "",
+                        "items": []
+                    }
+                ]
+            }
+        ]
+    }
+]
