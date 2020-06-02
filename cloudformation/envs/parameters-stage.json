@@ -1,0 +1,6 @@
+[
+  {
+    "ParameterKey": "NotificationBucket",
+    "ParameterValue": "staging-freeme.name"
+  }
+]

@@ -227,7 +227,7 @@
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "a4f7200cf7b4a8e5793de2dcd990117e"
+        "md5": "13a2506d5b8602794fec0b712e8b7bab"
     },
     {
         "path": "guide",
@@ -247,7 +247,7 @@
     {
         "path": "index.html",
         "type": "file",
-        "md5": "c7b09a793ce07dfc958b6ab96237b18c"
+        "md5": "b623635fe8222691ea864df4fa7a350d"
     },
     {
         "path": "initial-commit.html",
