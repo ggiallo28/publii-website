@@ -24,51 +24,58 @@ Resources:
     Properties:
       Code:
         ZipFile: |
-            from collections import namedtuple
-            from bs4 import BeautifulSoup
-            from bs4.element import Comment
-            import boto3
-            import json
+              from collections import namedtuple
+              from bs4 import BeautifulSoup
+              from bs4.element import Comment
+              import boto3
+              import json
 
-            exclude_prefix = ('cv', 'it')
-            tr = boto3.client('translate')
-            s3 = boto3.client('s3')
+              exclude_prefix = ('cv', 'it')
+              tr = boto3.client('translate')
+              s3 = boto3.client('s3')
 
-            def s3_parse_event(event):
-              bucket = event['Records'][0]['s3']['bucket']['name']
-              key = event['Records'][0]['s3']['object']['key']
-              Page = namedtuple('Page', 'bucket key')
-              return Page(bucket, key)
-              
-            def translate(text):
-              return text
+              def s3_parse_event(event):
+                bucket = event['Records'][0]['s3']['bucket']['name']
+                key = event['Records'][0]['s3']['object']['key']
+                Page = namedtuple('Page', 'bucket key')
+                return Page(bucket, key)
                 
-            def lambda_handler(event, context):
-              page = s3_parse_event(event)
+              def translate(text):
+                return text
+                  
+              def lambda_handler(event, context):
+                page = s3_parse_event(event)
 
-              if page.key.startswith(exclude_prefix):
-                print(f'Skip {page.key}')
-                return 
-              
-              path_file = f'/tmp/{page.key}'
-              with open(path_file, 'wb') as f:
-                s3.download_fileobj( page.bucket, page.key, f)
-              
-              with open(path_file, 'rb') as file:
-                soup = BeautifulSoup(file.read(), 'html.parser')
-              main = soup.find('main')
-              
-              for t in main.findAll(text=True):
-                text = translate(t)
-                t.replaceWith(text)
-
-              with open(path_file, "w") as file:
-                file.write(str(soup))
-              
-              with open(path_file, 'rb') as data:
-                s3.upload_fileobj(data, page.bucket, f'it/{page.key}' )
+                if page.key.startswith(exclude_prefix):
+                  print(f'Skip {page.key}')
+                  return 
                 
-              print(f'Translate {page.key}, {page.bucket}')
+                path_file = f'/tmp/{page.key}'
+                with open(path_file, 'wb') as f:
+                  s3.download_fileobj( page.bucket, page.key, f)
+                
+                with open(path_file, 'rb') as file:
+                  soup = BeautifulSoup(file.read(), 'html.parser')
+                main = soup.find('main')
+                
+                for t in main.findAll(text=True):
+                  response = tr.translate_text(Text=t,SourceLanguageCode='en', TargetLanguageCode='it')
+                  t.replaceWith(response['TranslatedText'])
+
+                with open(path_file, "w") as file:
+                  file.write(str(soup))
+                
+                extra_args = {
+                  'ACL' : 'public-read',
+                  'CacheControl': 'no-cache, no-store',
+                  'ContentType': 'text/html'
+                }
+
+                with open(path_file, 'rb') as data:
+                  s3.upload_fileobj(data, page.bucket, f'it/{page.key}', ExtraArgs=extra_args)
+                  
+                print(f'Translate {page.key}, {page.bucket}')
+
       Handler: index.lambda_handler
       Role: !GetAtt LambdaIAMRole.Arn
       Runtime: python3.6
@@ -123,6 +130,10 @@ Resources:
                   - 'logs:CreateLogStream'
                   - 'logs:PutLogEvents'
                 Resource: 'arn:aws:logs:*:*:*'
+              - Effect: Allow
+                Action:
+                  - 'translate:TranslateText'
+                Resource: '*'
 
   CustomResourceLambdaFunction:
     Type: 'AWS::Lambda::Function'
@@ -208,3 +219,5 @@ Resources:
       ServiceToken: !GetAtt CustomResourceLambdaFunction.Arn
       LambdaArn: !GetAtt S3NotificationLambdaFunction.Arn
       Bucket: !Ref NotificationBucket
+
+
