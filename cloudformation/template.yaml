@@ -58,9 +58,13 @@ Resources:
                   soup = BeautifulSoup(file.read(), 'html.parser')
                 main = soup.find('main')
                 
-                for t in main.findAll(text=True):
-                  response = tr.translate_text(Text=t,SourceLanguageCode='en', TargetLanguageCode='it')
-                  t.replaceWith(response['TranslatedText'])
+                for text in main.findAll(text=True):
+                  response = tr.translate_text(Text=text, SourceLanguageCode='en', TargetLanguageCode='it', TerminologyNames=['publii'])
+                  if text[0] == ' ':
+                    response['TranslatedText'] = ' ' + response['TranslatedText']
+                  if text[-1] == ' ':
+                    response['TranslatedText'] = response['TranslatedText'] + ' '
+                  text.replaceWith(response['TranslatedText'])
 
                 with open(path_file, "w") as file:
                   file.write(str(soup))

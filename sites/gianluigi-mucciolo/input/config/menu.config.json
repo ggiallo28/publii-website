@@ -74,7 +74,7 @@
                         "label": "Web View",
                         "title": "",
                         "type": "external",
-                        "target": "_self",
+                        "target": "_blank",
                         "rel": "",
                         "link": "http://www.freeme.name/cv/",
                         "cssClass": "",
