@@ -52,7 +52,7 @@
     {
         "path": "/amp/do-you-automate.html",
         "type": "file",
-        "md5": "e039b9a630a2785d7b0878f7e71126ee"
+        "md5": "eff2cfa64890dc0644270f7eee738179"
     },
     {
         "path": "amp/guide",
@@ -77,7 +77,7 @@
     {
         "path": "/amp/initial-commit.html",
         "type": "file",
-        "md5": "3bb1be8c7c3cb6d76351531158a2c71d"
+        "md5": "2eb6aa3dcd1e8806f85392a10661287d"
     },
     {
         "path": "amp/talks",
@@ -217,17 +217,17 @@
     {
         "path": "do-you-automate.html",
         "type": "file",
-        "md5": "12fa598b9d52f82bf9f36c5ecd821992"
+        "md5": "070a132e8f340d0e0a68b72aa6e0ee1f"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "db6298fde90887708194f11d3523200f"
+        "md5": "18aaac8396e9f8590926534385935589"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "96a89b853ede8e2a2e475acd7b242f0c"
+        "md5": "dc485a04c7c95c3f2f12298efe5cefdc"
     },
     {
         "path": "guide",
@@ -247,12 +247,12 @@
     {
         "path": "index.html",
         "type": "file",
-        "md5": "2c982c830515d6dadf07376c6e1bfcbe"
+        "md5": "d8a4edc49f5aaa1a38a7c566fecdfe32"
     },
     {
         "path": "initial-commit.html",
         "type": "file",
-        "md5": "d859a72f6a219413b8fe79b5d5377ddf"
+        "md5": "8588dc5a54ae75d1e769196f273ca524"
     },
     {
         "path": "media",
@@ -640,6 +640,11 @@
         "md5": false
     },
     {
+        "path": "/media/posts/9/ai101-2.jpg",
+        "type": "file",
+        "md5": "d9566581bad6ec0ce7fe603765701c8e"
+    },
+    {
         "path": "/media/posts/9/franck-v-U3sOwViXhkY-unsplash.jpg",
         "type": "file",
         "md5": "1abcbede866494ab331e412277807f59"
@@ -648,6 +653,21 @@
         "path": "media/posts/9/responsive",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "/media/posts/9/responsive/ai101-2-md.jpg",
+        "type": "file",
+        "md5": "b420153a248cd3988be902bd79cee435"
+    },
+    {
+        "path": "/media/posts/9/responsive/ai101-2-sm.jpg",
+        "type": "file",
+        "md5": "d03bbbae24d03bc7f4e8fce301c0e9ae"
+    },
+    {
+        "path": "/media/posts/9/responsive/ai101-2-xs.jpg",
+        "type": "file",
+        "md5": "85c335a279a79867a37c346efc1fb7bf"
     },
     {
         "path": "/media/posts/9/responsive/franck-v-U3sOwViXhkY-unsplash-lg.jpg",
@@ -717,7 +737,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "7c9134c7a10f76b1b52383febaac4671"
+        "md5": "501fb93feda429d457d05b88797d6331"
     },
     {
         "path": "sitemap.xsl",
