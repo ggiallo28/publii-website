@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "ac495307d9f2a2501be37689fa355a6e"
+        "md5": "8c985a3b54d9e3f49fc0076c16deb5e2"
     },
     {
         "path": "StaticWebSite.svg",
@@ -32,7 +32,7 @@
     {
         "path": "/amp/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "e1627d8b4da8606796375bbc071a86b2"
+        "md5": "9e220fc3fb8fb5e9107e5473a4efcb46"
     },
     {
         "path": "amp/automation",
@@ -52,7 +52,7 @@
     {
         "path": "/amp/do-you-automate.html",
         "type": "file",
-        "md5": "eff2cfa64890dc0644270f7eee738179"
+        "md5": "1aef77b140f9080e1e27c48e9f10e119"
     },
     {
         "path": "amp/guide",
@@ -62,22 +62,22 @@
     {
         "path": "/amp/guide/index.html",
         "type": "file",
-        "md5": "e76a16553cd32cc361dbe42b7cba344b"
+        "md5": "5b95a507a253d4059674bcff841ff8f3"
     },
     {
         "path": "/amp/how-to-create-a-personal-website.html",
         "type": "file",
-        "md5": "57f084829f40e12de2dc45401e6903c1"
+        "md5": "cc0e4f391448aa1442475630f555b2c8"
     },
     {
         "path": "/amp/index.html",
         "type": "file",
-        "md5": "6ff65c1681f20978be9ecd2e1bd2b282"
+        "md5": "382ef5aa6f988ace24ccd6c31ae051a2"
     },
     {
         "path": "/amp/initial-commit.html",
         "type": "file",
-        "md5": "2eb6aa3dcd1e8806f85392a10661287d"
+        "md5": "f0801e75fa1f4f407718adfde06fe36c"
     },
     {
         "path": "amp/talks",
@@ -197,7 +197,7 @@
     {
         "path": "/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "be7413e93389538cdf059bb47746a073"
+        "md5": "446fe33682914299a9f39b612420568a"
     },
     {
         "path": "automation",
@@ -207,27 +207,27 @@
     {
         "path": "/automation/index.html",
         "type": "file",
-        "md5": "f1963612846b715283ca8bb1f36479c5"
+        "md5": "ae5b07803ef41e39a204435526d69455"
     },
     {
         "path": "cloudoformation-iac.html",
         "type": "file",
-        "md5": "1aec455aca1cb7e0de9de2a1c169ace2"
+        "md5": "5bbdea4df3eb13349597dc6d44ec6448"
     },
     {
         "path": "do-you-automate.html",
         "type": "file",
-        "md5": "070a132e8f340d0e0a68b72aa6e0ee1f"
+        "md5": "68daf3ee651621b788d07af90ef38727"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "18aaac8396e9f8590926534385935589"
+        "md5": "db66ada1523ef4245575592dd93451ff"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "dc485a04c7c95c3f2f12298efe5cefdc"
+        "md5": "0a41ffeb54917c1b08281a53c607c7cf"
     },
     {
         "path": "guide",
@@ -237,22 +237,22 @@
     {
         "path": "/guide/index.html",
         "type": "file",
-        "md5": "9f363106833ed4d511b306589d697f88"
+        "md5": "019e64e7b31d0910c031063266dda846"
     },
     {
         "path": "how-to-create-a-personal-website.html",
         "type": "file",
-        "md5": "d3bbe7edf5ba8b984eaf48c0bd3d3e49"
+        "md5": "385ba36e67a2169f87ae1965db719974"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "d8a4edc49f5aaa1a38a7c566fecdfe32"
+        "md5": "f8775a05f4f68b589e5040a5760deef4"
     },
     {
         "path": "initial-commit.html",
         "type": "file",
-        "md5": "8588dc5a54ae75d1e769196f273ca524"
+        "md5": "c2a4492db1ac5193f38c469718ba12d9"
     },
     {
         "path": "media",
@@ -275,6 +275,16 @@
         "md5": false
     },
     {
+        "path": "/media/posts/10/Schermata-2020-06-08-alle-22.56.41.png",
+        "type": "file",
+        "md5": "f40bab6679ee69115eb63815c7079e48"
+    },
+    {
+        "path": "/media/posts/10/Schermata-2020-06-08-alle-23.00.57.png",
+        "type": "file",
+        "md5": "35f53c18cc103934ba805d53f51f5f6b"
+    },
+    {
         "path": "/media/posts/10/StaticWebSite.svg",
         "type": "file",
         "md5": "76713c486e3e8ffab7ad2919294b7f33"
@@ -288,6 +298,36 @@
         "path": "media/posts/10/responsive",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "/media/posts/10/responsive/Schermata-2020-06-08-alle-22.56.41-md.png",
+        "type": "file",
+        "md5": "36bb893ddbfb1341d1c3ab542cdcc784"
+    },
+    {
+        "path": "/media/posts/10/responsive/Schermata-2020-06-08-alle-22.56.41-sm.png",
+        "type": "file",
+        "md5": "c0cb7fd1ca8a23f3f09c76ee9133b615"
+    },
+    {
+        "path": "/media/posts/10/responsive/Schermata-2020-06-08-alle-22.56.41-xs.png",
+        "type": "file",
+        "md5": "3e727222d63987ec3ebf809f200e798c"
+    },
+    {
+        "path": "/media/posts/10/responsive/Schermata-2020-06-08-alle-23.00.57-md.png",
+        "type": "file",
+        "md5": "cc6711002c373004357b1cd3c70fc50f"
+    },
+    {
+        "path": "/media/posts/10/responsive/Schermata-2020-06-08-alle-23.00.57-sm.png",
+        "type": "file",
+        "md5": "8aa908fd314fbfb95bd9b4db1230d8db"
+    },
+    {
+        "path": "/media/posts/10/responsive/Schermata-2020-06-08-alle-23.00.57-xs.png",
+        "type": "file",
+        "md5": "7101d180c10f4474410f9a39fdf8bbd7"
     },
     {
         "path": "/media/posts/10/responsive/hal-gatewood-tZc3vjPCk-Q-unsplash-lg.jpg",
@@ -308,6 +348,26 @@
         "path": "/media/posts/10/responsive/hal-gatewood-tZc3vjPCk-Q-unsplash-xs.jpg",
         "type": "file",
         "md5": "ab50433c25237c3a41f778112faf5300"
+    },
+    {
+        "path": "/media/posts/10/responsive/wordpress-on-aws-md.png",
+        "type": "file",
+        "md5": "c53778a344e4bfbea3e927890b2a32ad"
+    },
+    {
+        "path": "/media/posts/10/responsive/wordpress-on-aws-sm.png",
+        "type": "file",
+        "md5": "9efd764c16535c6b072de962edb1a4d8"
+    },
+    {
+        "path": "/media/posts/10/responsive/wordpress-on-aws-xs.png",
+        "type": "file",
+        "md5": "7d8c96c7539b3046fbcc44bb75f069f1"
+    },
+    {
+        "path": "/media/posts/10/wordpress-on-aws.png",
+        "type": "file",
+        "md5": "db7a2aaeee17dd0e77406b6e043b0576"
     },
     {
         "path": "media/posts/13",
@@ -645,6 +705,11 @@
         "md5": "d9566581bad6ec0ce7fe603765701c8e"
     },
     {
+        "path": "/media/posts/9/amleto_con_teschio.jpg",
+        "type": "file",
+        "md5": "0e2a60271354a57654277c9630fe26b3"
+    },
+    {
         "path": "/media/posts/9/franck-v-U3sOwViXhkY-unsplash.jpg",
         "type": "file",
         "md5": "1abcbede866494ab331e412277807f59"
@@ -668,6 +733,21 @@
         "path": "/media/posts/9/responsive/ai101-2-xs.jpg",
         "type": "file",
         "md5": "85c335a279a79867a37c346efc1fb7bf"
+    },
+    {
+        "path": "/media/posts/9/responsive/amleto_con_teschio-md.jpg",
+        "type": "file",
+        "md5": "24b1c19886f287889b482ce1e839cf64"
+    },
+    {
+        "path": "/media/posts/9/responsive/amleto_con_teschio-sm.jpg",
+        "type": "file",
+        "md5": "a116a460f96eb2a58cd6c61b05c6739f"
+    },
+    {
+        "path": "/media/posts/9/responsive/amleto_con_teschio-xs.jpg",
+        "type": "file",
+        "md5": "b3bf8ad8e65d8e966f8e6aa31475a813"
     },
     {
         "path": "/media/posts/9/responsive/franck-v-U3sOwViXhkY-unsplash-lg.jpg",
@@ -732,12 +812,12 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "8332111f668fe8eb15ae9a80dd3af70a"
+        "md5": "b435f0460e03c6ceca1c30244cddeaca"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "501fb93feda429d457d05b88797d6331"
+        "md5": "5cba44864bae11c1e2279527ea8e57b6"
     },
     {
         "path": "sitemap.xsl",
@@ -752,7 +832,7 @@
     {
         "path": "/talks/index.html",
         "type": "file",
-        "md5": "bde2689052f30d887a4de7be95cb7809"
+        "md5": "504d1a62f901f7b924076d5efdbe5c65"
     },
     {
         "path": "where-everything-started",
@@ -762,6 +842,6 @@
     {
         "path": "/where-everything-started/index.html",
         "type": "file",
-        "md5": "482a887f65059374ed4ea4c573356cfa"
+        "md5": "8e3aa2965d66e7a8971ceea83c8d0092"
     }
 ]
