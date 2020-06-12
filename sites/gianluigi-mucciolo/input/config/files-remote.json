@@ -32,7 +32,7 @@
     {
         "path": "/amp/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "9e220fc3fb8fb5e9107e5473a4efcb46"
+        "md5": "b88609f53ae6be3ff3c9e2d670934f17"
     },
     {
         "path": "amp/automation",
@@ -47,12 +47,12 @@
     {
         "path": "/amp/cloudoformation-iac.html",
         "type": "file",
-        "md5": "2e5410e759ac9f3c9cdbacbdf159658a"
+        "md5": "7f7cbff37b4178a0f11dcba2200a6297"
     },
     {
         "path": "/amp/do-you-automate.html",
         "type": "file",
-        "md5": "1aef77b140f9080e1e27c48e9f10e119"
+        "md5": "6bcfac667ea287217627669699f7092d"
     },
     {
         "path": "amp/guide",
@@ -62,22 +62,22 @@
     {
         "path": "/amp/guide/index.html",
         "type": "file",
-        "md5": "5b95a507a253d4059674bcff841ff8f3"
+        "md5": "ac7ed32493022cd5a92c53b3f3156034"
     },
     {
         "path": "/amp/how-to-create-a-personal-website.html",
         "type": "file",
-        "md5": "cc0e4f391448aa1442475630f555b2c8"
+        "md5": "5c8d8b3e615127483f6852f6b7696494"
     },
     {
         "path": "/amp/index.html",
         "type": "file",
-        "md5": "382ef5aa6f988ace24ccd6c31ae051a2"
+        "md5": "ca370b8b8bf63ec347a5cc767c588ba4"
     },
     {
         "path": "/amp/initial-commit.html",
         "type": "file",
-        "md5": "f0801e75fa1f4f407718adfde06fe36c"
+        "md5": "5674e93e4c249e143f47812c27b74eaa"
     },
     {
         "path": "amp/talks",
@@ -197,7 +197,7 @@
     {
         "path": "/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "446fe33682914299a9f39b612420568a"
+        "md5": "e3729083872e423f70d11164eef0b441"
     },
     {
         "path": "automation",
@@ -212,22 +212,22 @@
     {
         "path": "cloudoformation-iac.html",
         "type": "file",
-        "md5": "5bbdea4df3eb13349597dc6d44ec6448"
+        "md5": "fe49631fc81a2b848271ff69830a5205"
     },
     {
         "path": "do-you-automate.html",
         "type": "file",
-        "md5": "68daf3ee651621b788d07af90ef38727"
+        "md5": "537df1b40765573a25fc58ef710ab6cc"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "db66ada1523ef4245575592dd93451ff"
+        "md5": "aba80d35dee25aa032297e3165a3eece"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "0a41ffeb54917c1b08281a53c607c7cf"
+        "md5": "5a704593e23005660ed9b708c7775c15"
     },
     {
         "path": "guide",
@@ -237,22 +237,22 @@
     {
         "path": "/guide/index.html",
         "type": "file",
-        "md5": "019e64e7b31d0910c031063266dda846"
+        "md5": "6d9891dd5c5e24989ee478375227c63a"
     },
     {
         "path": "how-to-create-a-personal-website.html",
         "type": "file",
-        "md5": "385ba36e67a2169f87ae1965db719974"
+        "md5": "9f221d59cde15e1c76a0a81ee954c754"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "f8775a05f4f68b589e5040a5760deef4"
+        "md5": "3c1df7e8b409dd24932167936f3578bf"
     },
     {
         "path": "initial-commit.html",
         "type": "file",
-        "md5": "c2a4492db1ac5193f38c469718ba12d9"
+        "md5": "a77a99f561eb89d9a2380ae1b55bd1ed"
     },
     {
         "path": "media",
@@ -350,6 +350,21 @@
         "md5": "ab50433c25237c3a41f778112faf5300"
     },
     {
+        "path": "/media/posts/10/responsive/us-dollar-bills-illustration-545864205-57aa68603df78cf459d43e43-md.jpg",
+        "type": "file",
+        "md5": "609f3666cfdb1f300c8cbc86310d1ee7"
+    },
+    {
+        "path": "/media/posts/10/responsive/us-dollar-bills-illustration-545864205-57aa68603df78cf459d43e43-sm.jpg",
+        "type": "file",
+        "md5": "5f7a048dd01c56660527788eab64525d"
+    },
+    {
+        "path": "/media/posts/10/responsive/us-dollar-bills-illustration-545864205-57aa68603df78cf459d43e43-xs.jpg",
+        "type": "file",
+        "md5": "9ee07f711e9e0f49fb2f12942656adaf"
+    },
+    {
         "path": "/media/posts/10/responsive/wordpress-on-aws-md.png",
         "type": "file",
         "md5": "c53778a344e4bfbea3e927890b2a32ad"
@@ -363,6 +378,11 @@
         "path": "/media/posts/10/responsive/wordpress-on-aws-xs.png",
         "type": "file",
         "md5": "7d8c96c7539b3046fbcc44bb75f069f1"
+    },
+    {
+        "path": "/media/posts/10/us-dollar-bills-illustration-545864205-57aa68603df78cf459d43e43.jpg",
+        "type": "file",
+        "md5": "3c56fdda754b3993b678b78a7c16302e"
     },
     {
         "path": "/media/posts/10/wordpress-on-aws.png",
@@ -817,7 +837,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "5cba44864bae11c1e2279527ea8e57b6"
+        "md5": "8ed53e3b3d4fcf4fd96195eb325fde6f"
     },
     {
         "path": "sitemap.xsl",

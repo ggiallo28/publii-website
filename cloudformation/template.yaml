@@ -2,18 +2,62 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: >-
   Template to Generate Translations
 Parameters:
-  NotificationBucket:
+
+  Environments:
     Type: String
-    Description: S3 bucket which is used for Lambda event notification
+    AllowedValues:
+      - stage
+      - production
+
+  WebSiteBucket:
+    Type: String    
+
+  ProjectName:
+    Type: String
+
+  HostedZoneId:
+    Type: AWS::Route53::HostedZone::Id
+
+  DomainName:
+    Type: String
+
+  TranslateSite:
+    Type: String
+    AllowedValues:
+      - True
+      - False
+    Default: True
+
+Conditions:
+  CreateProdResource: !Equals [ !Ref Environments, "production" ]
+
+Mappings: 
+  RegionMap: 
+    eu-west-1: 
+      S3HostedZoneId: 'Z1BKCTXD74EZPE'
+      S3DNSName: 's3-website-eu-west-1.amazonaws.com.'
 
 Resources:
 
-  bs4Layer:
+  Route53RecordSetGroup:
+    Type: AWS::Route53::RecordSetGroup
+    Condition: CreateProdResource
+    Properties:
+      HostedZoneName: !Sub '${DomainName}.'
+      RecordSets:
+      - Name: !Ref DomainName
+        Type: A
+        AliasTarget:
+          DNSName: !FindInMap [RegionMap, !Ref 'AWS::Region', S3DNSName]
+          HostedZoneId: !FindInMap [RegionMap, !Ref 'AWS::Region', S3HostedZoneId]
+          EvaluateTargetHealth: false
+
+  Bs4Layer:
     Type: AWS::Lambda::LayerVersion
     Properties:
-      LayerName: bs4-python36
+      LayerName: !Sub '${Environments}-${ProjectName}-bs4-python36'
       Content:
-        S3Bucket: !Ref NotificationBucket
+        S3Bucket: !Ref WebSiteBucket
         S3Key: layers/bs4-layer/bs4-python36-layer.zip
       Description: Beautiful Soup 4 Layer for Python 3.6
       CompatibleRuntimes:
@@ -22,6 +66,7 @@ Resources:
   S3NotificationLambdaFunction:
     Type: 'AWS::Lambda::Function'
     Properties:
+      FunctionName : !Sub '${Environments}-${ProjectName}-translate'
       Code:
         ZipFile: |
               from collections import namedtuple
@@ -29,6 +74,7 @@ Resources:
               from bs4.element import Comment
               import boto3
               import json
+              import os
 
               exclude_prefix = ('cv', 'it')
               tr = boto3.client('translate')
@@ -41,7 +87,13 @@ Resources:
                 return Page(bucket, key)
                 
               def translate(text):
-                return text
+                response = tr.translate_text(Text=text, SourceLanguageCode='en', TargetLanguageCode='it', TerminologyNames=['publii'])
+                if text[0] == ' ':
+                  response['TranslatedText'] = ' ' + response['TranslatedText']
+                if text[-1] == ' ':
+                  response['TranslatedText'] = response['TranslatedText'] + ' '
+
+                return response['TranslatedText']
                   
               def lambda_handler(event, context):
                 page = s3_parse_event(event)
@@ -51,6 +103,7 @@ Resources:
                   return 
                 
                 path_file = f'/tmp/{page.key}'
+                os.makedirs(os.path.dirname(path_file), exist_ok=True)
                 with open(path_file, 'wb') as f:
                   s3.download_fileobj( page.bucket, page.key, f)
                 
@@ -59,12 +112,8 @@ Resources:
                 main = soup.find('main')
                 
                 for text in main.findAll(text=True):
-                  response = tr.translate_text(Text=text, SourceLanguageCode='en', TargetLanguageCode='it', TerminologyNames=['publii'])
-                  if text[0] == ' ':
-                    response['TranslatedText'] = ' ' + response['TranslatedText']
-                  if text[-1] == ' ':
-                    response['TranslatedText'] = response['TranslatedText'] + ' '
-                  text.replaceWith(response['TranslatedText'])
+                  translated_text = translate(text)
+                  text.replaceWith(translated_text)
 
                 with open(path_file, "w") as file:
                   file.write(str(soup))
@@ -83,9 +132,9 @@ Resources:
       Handler: index.lambda_handler
       Role: !GetAtt LambdaIAMRole.Arn
       Runtime: python3.6
-      Timeout: 5
+      Timeout: 80
       Layers:
-        - Ref: bs4Layer
+        - Ref: Bs4Layer
 
   LambdaInvokePermission:
     Type: 'AWS::Lambda::Permission'
@@ -94,11 +143,12 @@ Resources:
       Action: 'lambda:InvokeFunction'
       Principal: s3.amazonaws.com
       SourceAccount: !Ref 'AWS::AccountId'
-      SourceArn: !Sub 'arn:aws:s3:::${NotificationBucket}'
+      SourceArn: !Sub 'arn:aws:s3:::${WebSiteBucket}'
 
   LambdaIAMRole:
     Type: 'AWS::IAM::Role'
     Properties:
+      RoleName: !Sub '${Environments}-${ProjectName}-lambda-translate-role'
       AssumeRolePolicyDocument:
         Version: 2012-10-17
         Statement:
@@ -118,7 +168,7 @@ Resources:
                 Action:
                   - 's3:GetBucketNotification'
                   - 's3:PutBucketNotification'
-                Resource: !Sub 'arn:aws:s3:::${NotificationBucket}'
+                Resource: !Sub 'arn:aws:s3:::${WebSiteBucket}'
               - Effect: Allow
                 Action:
                   - 's3:PutObject'
@@ -126,8 +176,8 @@ Resources:
                   - 's3:GetObjectAcl'
                   - 's3:PutBucketAcl'
                 Resource: 
-                  - !Sub 'arn:aws:s3:::${NotificationBucket}'
-                  - !Sub 'arn:aws:s3:::${NotificationBucket}/*'           
+                  - !Sub 'arn:aws:s3:::${WebSiteBucket}'
+                  - !Sub 'arn:aws:s3:::${WebSiteBucket}/*'           
               - Effect: Allow
                 Action:
                   - 'logs:CreateLogGroup'
@@ -142,6 +192,7 @@ Resources:
   CustomResourceLambdaFunction:
     Type: 'AWS::Lambda::Function'
     Properties:
+      FunctionName : !Sub '${Environments}-${ProjectName}-triggher'
       Handler: index.lambda_handler
       Role: !GetAtt LambdaIAMRole.Arn
       Code:
@@ -216,12 +267,13 @@ Resources:
       Runtime: python3.6
       Timeout: 50
 
+
   LambdaTrigger:
     Type: 'Custom::LambdaTrigger'
     DependsOn: LambdaInvokePermission
     Properties:
       ServiceToken: !GetAtt CustomResourceLambdaFunction.Arn
       LambdaArn: !GetAtt S3NotificationLambdaFunction.Arn
-      Bucket: !Ref NotificationBucket
+      Bucket: !Ref WebSiteBucket
 
 

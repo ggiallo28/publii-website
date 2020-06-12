@@ -1,6 +1,22 @@
 [
   {
-    "ParameterKey": "NotificationBucket",
+    "ParameterKey": "WebSiteBucket",
     "ParameterValue": "staging-freeme.name"
+  },
+  {
+    "ParameterKey": "Environments",
+    "ParameterValue": "stage"
+  },
+  {
+    "ParameterKey": "ProjectName",
+    "ParameterValue": "publii-blog"
+  },
+  {
+    "ParameterKey": "HostedZoneId",
+    "ParameterValue": "Z1716E2COYG7NS"
+  },
+  {
+    "ParameterKey": "DomainName",
+    "ParameterValue": "gmucciolo.it"
   }
 ]

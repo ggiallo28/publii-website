@@ -64,9 +64,9 @@
                 "label": "Resume",
                 "title": "",
                 "type": "external",
-                "target": "_self",
+                "target": "_blank",
                 "rel": "",
-                "link": "http://www.freeme.name/cv",
+                "link": "http://gmucciolo.it/cv/",
                 "cssClass": "",
                 "items": [
                     {
@@ -76,7 +76,7 @@
                         "type": "external",
                         "target": "_blank",
                         "rel": "",
-                        "link": "http://www.freeme.name/cv/",
+                        "link": "http://gmucciolo.it/cv/",
                         "cssClass": "",
                         "items": []
                     },
@@ -85,9 +85,9 @@
                         "label": "Download",
                         "title": "",
                         "type": "external",
-                        "target": "_self",
+                        "target": "_blank",
                         "rel": "",
-                        "link": "http://www.freeme.name/cv/vitae.pdf",
+                        "link": "http://gmucciolo.it/cv/vitae.pdf",
                         "cssClass": "",
                         "items": []
                     }
