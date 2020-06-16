@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "8c985a3b54d9e3f49fc0076c16deb5e2"
+        "md5": "cd45c59a82964bb9644a4ff5522884e9"
     },
     {
         "path": "StaticWebSite.svg",
@@ -32,72 +32,87 @@
     {
         "path": "/amp/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "b88609f53ae6be3ff3c9e2d670934f17"
+        "md5": "2fb69b3616608afc6dfebc8ecf56dbf4"
     },
     {
-        "path": "amp/automation",
+        "path": "amp/blog",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "/amp/automation/index.html",
-        "type": "file",
-        "md5": "2ab471d5116bfffe0a022419a5ba6166"
-    },
-    {
-        "path": "/amp/cloudoformation-iac.html",
-        "type": "file",
-        "md5": "7f7cbff37b4178a0f11dcba2200a6297"
-    },
-    {
-        "path": "/amp/do-you-automate.html",
-        "type": "file",
-        "md5": "6bcfac667ea287217627669699f7092d"
-    },
-    {
-        "path": "amp/guide",
+        "path": "amp/blog/automation",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "/amp/guide/index.html",
+        "path": "/amp/blog/automation/index.html",
         "type": "file",
-        "md5": "ac7ed32493022cd5a92c53b3f3156034"
+        "md5": "d707a247958c4adfe173ce2942a47d2b"
     },
     {
-        "path": "/amp/how-to-create-a-personal-website.html",
+        "path": "amp/blog/guide",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/amp/blog/guide/index.html",
         "type": "file",
-        "md5": "5c8d8b3e615127483f6852f6b7696494"
+        "md5": "e5e3a26f000647890c006675265f3a0e"
+    },
+    {
+        "path": "amp/blog/talks",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/amp/blog/talks/index.html",
+        "type": "file",
+        "md5": "b6cbcd837cc173ba054356709c4a9853"
+    },
+    {
+        "path": "amp/blog/where-everything-started",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/amp/blog/where-everything-started/index.html",
+        "type": "file",
+        "md5": "db85769751a49bea44b999dbcbeb60e0"
+    },
+    {
+        "path": "amp/create-a-personal-website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/amp/create-a-personal-website/index.html",
+        "type": "file",
+        "md5": "7cbaf2d3f1d44d09a3b3acbe0e6c733c"
+    },
+    {
+        "path": "amp/do-you-automate",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/amp/do-you-automate/index.html",
+        "type": "file",
+        "md5": "051b4c867853411c611af8499fd6a283"
     },
     {
         "path": "/amp/index.html",
         "type": "file",
-        "md5": "ca370b8b8bf63ec347a5cc767c588ba4"
+        "md5": "ae452a3a95259113ecf527da83e97a71"
     },
     {
-        "path": "/amp/initial-commit.html",
-        "type": "file",
-        "md5": "5674e93e4c249e143f47812c27b74eaa"
-    },
-    {
-        "path": "amp/talks",
+        "path": "amp/initial-commit",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "/amp/talks/index.html",
+        "path": "/amp/initial-commit/index.html",
         "type": "file",
-        "md5": "b4b29afbf4b7d20ff4ca1af3fef8ae52"
-    },
-    {
-        "path": "amp/where-everything-started",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/amp/where-everything-started/index.html",
-        "type": "file",
-        "md5": "cb6400298739ac0610384506a0fee75c"
+        "md5": "c3b3171cb5a211de56cee1a7e6e3ebd0"
     },
     {
         "path": "assets",
@@ -127,7 +142,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "c053d44d783cac52c944adb4cf385f15"
+        "md5": "28479eb7d8ecc6b9c8c6580965d9172b"
     },
     {
         "path": "assets/js",
@@ -197,62 +212,97 @@
     {
         "path": "/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "e3729083872e423f70d11164eef0b441"
+        "md5": "25fec415d85bc8e17f15108fb2a2b9d0"
     },
     {
-        "path": "automation",
+        "path": "blog",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "/automation/index.html",
-        "type": "file",
-        "md5": "ae5b07803ef41e39a204435526d69455"
+        "path": "blog/automation",
+        "type": "directory",
+        "md5": false
     },
     {
-        "path": "cloudoformation-iac.html",
+        "path": "/blog/automation/index.html",
         "type": "file",
-        "md5": "fe49631fc81a2b848271ff69830a5205"
+        "md5": "aa3da9f637102704ae450355771e52d0"
     },
     {
-        "path": "do-you-automate.html",
+        "path": "blog/guide",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/blog/guide/index.html",
         "type": "file",
-        "md5": "537df1b40765573a25fc58ef710ab6cc"
+        "md5": "9e643307ec16eefe7558eaafd23be3cf"
+    },
+    {
+        "path": "blog/talks",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/blog/talks/index.html",
+        "type": "file",
+        "md5": "1da89a1d13ea7216c9332cf197040783"
+    },
+    {
+        "path": "blog/where-everything-started",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/blog/where-everything-started/index.html",
+        "type": "file",
+        "md5": "d4435fc3ea67e9c70a1bd3dfa646715f"
+    },
+    {
+        "path": "create-a-personal-website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/create-a-personal-website/index.html",
+        "type": "file",
+        "md5": "83fa5304d62bf7bf426363f98e92363c"
+    },
+    {
+        "path": "do-you-automate",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/do-you-automate/index.html",
+        "type": "file",
+        "md5": "991a5beffba35fd30ec12515ff90a049"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "aba80d35dee25aa032297e3165a3eece"
+        "md5": "d5427c1e19595c692eea80943e6f98c9"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "5a704593e23005660ed9b708c7775c15"
-    },
-    {
-        "path": "guide",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/guide/index.html",
-        "type": "file",
-        "md5": "6d9891dd5c5e24989ee478375227c63a"
-    },
-    {
-        "path": "how-to-create-a-personal-website.html",
-        "type": "file",
-        "md5": "9f221d59cde15e1c76a0a81ee954c754"
+        "md5": "5530ce55f597407cdd77da62bf4169d5"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "3c1df7e8b409dd24932167936f3578bf"
+        "md5": "13cde36494f699b2b3611180bfe40cec"
     },
     {
-        "path": "initial-commit.html",
+        "path": "initial-commit",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/initial-commit/index.html",
         "type": "file",
-        "md5": "a77a99f561eb89d9a2380ae1b55bd1ed"
+        "md5": "9f2fa7c1783bb932bebf05f7f0ebf7b6"
     },
     {
         "path": "media",
@@ -388,256 +438,6 @@
         "path": "/media/posts/10/wordpress-on-aws.png",
         "type": "file",
         "md5": "db7a2aaeee17dd0e77406b6e043b0576"
-    },
-    {
-        "path": "media/posts/13",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/13/Diapositiva1.png",
-        "type": "file",
-        "md5": "56447ef99b1be364432385a7a4ecad72"
-    },
-    {
-        "path": "/media/posts/13/Diapositiva10.png",
-        "type": "file",
-        "md5": "f77a8f04e00083395f6d879e3aa7cd86"
-    },
-    {
-        "path": "/media/posts/13/Diapositiva11.png",
-        "type": "file",
-        "md5": "0d78917fc55ec44f6bd007eabf779795"
-    },
-    {
-        "path": "/media/posts/13/Diapositiva2.png",
-        "type": "file",
-        "md5": "0d23a99087a838fe5bd6279e68f114a1"
-    },
-    {
-        "path": "/media/posts/13/Diapositiva3.png",
-        "type": "file",
-        "md5": "f4a5695883ec5ee10a593ae6dfa07727"
-    },
-    {
-        "path": "/media/posts/13/Diapositiva4.png",
-        "type": "file",
-        "md5": "d91b85ef739a7a7a531923343dd99ba1"
-    },
-    {
-        "path": "/media/posts/13/Diapositiva5.png",
-        "type": "file",
-        "md5": "08e7df406bb2eec615aa6f79da1c0a65"
-    },
-    {
-        "path": "/media/posts/13/Diapositiva6.png",
-        "type": "file",
-        "md5": "d446356a0a58b884aa344029f2ad58b6"
-    },
-    {
-        "path": "/media/posts/13/Diapositiva7.png",
-        "type": "file",
-        "md5": "0c26764e1de12669fcda453fdcaa18e1"
-    },
-    {
-        "path": "/media/posts/13/Diapositiva8.png",
-        "type": "file",
-        "md5": "a24d7016d1a163b0c617bc4946408f44"
-    },
-    {
-        "path": "/media/posts/13/Diapositiva9.png",
-        "type": "file",
-        "md5": "0882ea9a0c829d7a29849ec21ee6fade"
-    },
-    {
-        "path": "/media/posts/13/large-0.jpg",
-        "type": "file",
-        "md5": "9c726bc5405e737f304cc64d12fe0b8a"
-    },
-    {
-        "path": "media/posts/13/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva1-md.png",
-        "type": "file",
-        "md5": "f8c356775683f1cd1625ba4a6a5079bb"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva1-sm.png",
-        "type": "file",
-        "md5": "f363310055977970109183abafe677a2"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva1-xs.png",
-        "type": "file",
-        "md5": "ba61ea85fb3373a6c9a6a506682b3615"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva10-md.png",
-        "type": "file",
-        "md5": "04cb7c0e7d0785fe280def1e8c3e9996"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva10-sm.png",
-        "type": "file",
-        "md5": "2db0dce59742ea8150f57e79437258a0"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva10-xs.png",
-        "type": "file",
-        "md5": "be6b4cde8050e6704bd65d118e9ed611"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva11-md.png",
-        "type": "file",
-        "md5": "445dd9e70f732be8ea5f5026ce09e972"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva11-sm.png",
-        "type": "file",
-        "md5": "6b62c9c8e54cceaf7db15ebe3d0fd670"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva11-xs.png",
-        "type": "file",
-        "md5": "9db977771038e10cbe580cb309eda030"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva2-md.png",
-        "type": "file",
-        "md5": "b33f084db929dd5907a87ff94146b93b"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva2-sm.png",
-        "type": "file",
-        "md5": "bdcfd5e5cb45cad75274c79c9bbbd336"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva2-xs.png",
-        "type": "file",
-        "md5": "12c9e8bb316d0ec44b9a5b84b6c4b821"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva3-md.png",
-        "type": "file",
-        "md5": "f0448fc93ab07517934559f24bf0e6b4"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva3-sm.png",
-        "type": "file",
-        "md5": "c70462715e4dd74d99671bc6a119681f"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva3-xs.png",
-        "type": "file",
-        "md5": "21cc3699bb8693340d35e69028b15b1f"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva4-md.png",
-        "type": "file",
-        "md5": "b40e7851cb6d6a0bf6806af767a5c463"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva4-sm.png",
-        "type": "file",
-        "md5": "db20e2ae095a35e9cd3c4998f8fb2c39"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva4-xs.png",
-        "type": "file",
-        "md5": "e107ea069c7defdfaf997c9d7cea7faa"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva5-md.png",
-        "type": "file",
-        "md5": "0ee42276174ebba6e5d50491f5d512a8"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva5-sm.png",
-        "type": "file",
-        "md5": "522a51b038858ef21bdd180eff079cd3"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva5-xs.png",
-        "type": "file",
-        "md5": "c7cdfaedbc9f95d09dcaa1b3a000c32d"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva6-md.png",
-        "type": "file",
-        "md5": "861e371cace38f3fd8d0dae986dcdf25"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva6-sm.png",
-        "type": "file",
-        "md5": "e8f4d86e4b4d78d87c335c799725a804"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva6-xs.png",
-        "type": "file",
-        "md5": "f125ace90a645a3c38b07caab851d5ce"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva7-md.png",
-        "type": "file",
-        "md5": "e4ee00a029e167bfa7a8b6faa2588077"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva7-sm.png",
-        "type": "file",
-        "md5": "519bca104422f3a54a4db2d8f9e1772a"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva7-xs.png",
-        "type": "file",
-        "md5": "4fdee106e322a09fb78e922fda0c97f7"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva8-md.png",
-        "type": "file",
-        "md5": "139adf6a66ff346bf74c5f0683dba547"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva8-sm.png",
-        "type": "file",
-        "md5": "05fd3ffc74581e15d42bea656a2f00fd"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva8-xs.png",
-        "type": "file",
-        "md5": "8e5a829932a459fd5c8d5d759c30c876"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva9-md.png",
-        "type": "file",
-        "md5": "fb6fd3e1d2faa786f19f155b507fe738"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva9-sm.png",
-        "type": "file",
-        "md5": "0ce3807fffc3c6b92c86cf79bddba7ce"
-    },
-    {
-        "path": "/media/posts/13/responsive/Diapositiva9-xs.png",
-        "type": "file",
-        "md5": "00f2228080b4ab90b39a11e3936de0d2"
-    },
-    {
-        "path": "/media/posts/13/responsive/large-0-md.jpg",
-        "type": "file",
-        "md5": "e73b909eeb4dd9259e337489c8679beb"
-    },
-    {
-        "path": "/media/posts/13/responsive/large-0-sm.jpg",
-        "type": "file",
-        "md5": "cb2cba66138de548ace44f368704f0fd"
-    },
-    {
-        "path": "/media/posts/13/responsive/large-0-xs.jpg",
-        "type": "file",
-        "md5": "87fcdfd6f05b632ddff4ecb62bb33310"
     },
     {
         "path": "media/posts/8",
@@ -795,6 +595,11 @@
         "md5": false
     },
     {
+        "path": "/media/website/GialloB.png",
+        "type": "file",
+        "md5": "9db554d8445abdae6c5459e5fbfefda8"
+    },
+    {
         "path": "/media/website/android-chrome-512x512-2.png",
         "type": "file",
         "md5": "f4314987b75861e06d7e320d2549b818"
@@ -808,6 +613,16 @@
         "path": "media/website/responsive",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "/media/website/responsive/GialloB-sm.png",
+        "type": "file",
+        "md5": "01c6a09d75f58704c362698e65608d6d"
+    },
+    {
+        "path": "/media/website/responsive/GialloB-xs.png",
+        "type": "file",
+        "md5": "daba6ea27be69ba5c607b567ec0f19cf"
     },
     {
         "path": "/media/website/responsive/android-chrome-512x512-2-sm.png",
@@ -832,36 +647,16 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "b435f0460e03c6ceca1c30244cddeaca"
+        "md5": "c34cf5795e9f9e30e1e5ead65ef41c56"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "8ed53e3b3d4fcf4fd96195eb325fde6f"
+        "md5": "2f110e1058144cd20979c76003d8fdf6"
     },
     {
         "path": "sitemap.xsl",
         "type": "file",
         "md5": "51a7bcec43fa1ef0366100d5c2edbe75"
-    },
-    {
-        "path": "talks",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/talks/index.html",
-        "type": "file",
-        "md5": "504d1a62f901f7b924076d5efdbe5c65"
-    },
-    {
-        "path": "where-everything-started",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/where-everything-started/index.html",
-        "type": "file",
-        "md5": "8e3aa2965d66e7a8971ceea83c8d0092"
     }
 ]
