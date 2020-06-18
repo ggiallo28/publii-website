@@ -1,22 +1,24 @@
 [
   {
     "ParameterKey": "Environments",
-    "ParameterValue": "production"
+    "ParameterValue": "stage"
   },
   {
     "ParameterKey": "ProjectName",
     "ParameterValue": "publii-blog"
   },
   {
-    "ParameterKey": "HostedZoneId",
-    "ParameterValue": "Z1716E2COYG7NS"
-  },
-  {
     "ParameterKey": "DomainName",
     "ParameterValue": "gmucciolo.it"
   },
   {
-    "ParameterKey": "WebSiteBucket",
-    "ParameterValue": "gmucciolo.it"
+    "ParameterKey": "AcmCertificateArn",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "TerminologyName",
+    "ParameterValue": "publii"
   }
 ]
+
+

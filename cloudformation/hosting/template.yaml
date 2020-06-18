@@ -1,0 +1,321 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+
+Description: >
+  Amazon S3 Bucket to host static website with an AWS Lambda to translate the site.
+Parameters:
+
+  Environments:
+    Type: String
+    AllowedValues:
+      - stage
+      - production
+
+  ProjectName:
+    Type: String
+
+  DomainName:
+    Type: String
+
+  AcmCertificateArn:
+    Type: String
+
+  TerminologyName:
+    Type: String
+
+Globals:
+  Function:
+    Runtime: python3.7
+    Timeout: 60
+    MemorySize: 128
+    Environment:
+      Variables:
+        CUSTOM_TERMINOLOGY:
+          Ref: TerminologyName
+
+Conditions:
+  CreateProdResource: !Equals [ !Ref Environments, "production" ]
+  CreateStageResource: !Equals [ !Ref Environments, "stage" ]
+
+Mappings:
+  RegionMap:
+    us-east-1:
+      S3hostedzoneID: Z3AQBSTGFYJSTF
+      websiteendpoint: s3-website-us-east-1.amazonaws.com
+      CDNhostedzoneID: Z2FDTNDATAQYW2
+    us-west-1:
+      S3hostedzoneID: Z2F56UZL2M1ACD
+      websiteendpoint: s3-website-us-west-1.amazonaws.com
+      CDNhostedzoneID: Z2FDTNDATAQYW2
+    us-west-2:
+      S3hostedzoneID: Z3BJ6K6RIION7M
+      websiteendpoint: s3-website-us-west-2.amazonaws.com
+      CDNhostedzoneID: Z2FDTNDATAQYW2
+    eu-west-1:
+      S3hostedzoneID: Z1BKCTXD74EZPE
+      websiteendpoint: s3-website-eu-west-1.amazonaws.com
+      CDNhostedzoneID: Z2FDTNDATAQYW2
+    ap-southeast-1:
+      S3hostedzoneID: Z3O0J2DXBE1FTB
+      websiteendpoint: s3-website-ap-southeast-1.amazonaws.com
+      CDNhostedzoneID: Z2FDTNDATAQYW2
+    ap-southeast-2:
+      S3hostedzoneID: Z1WCIGYICN2BYD
+      websiteendpoint: s3-website-ap-southeast-2.amazonaws.com
+      CDNhostedzoneID: Z2FDTNDATAQYW2
+    ap-northeast-1:
+      S3hostedzoneID: Z2M4EHUR26P7ZW
+      websiteendpoint: s3-website-ap-northeast-1.amazonaws.com
+      CDNhostedzoneID: Z2FDTNDATAQYW2
+    sa-east-1:
+      S3hostedzoneID: Z31GFT0UA1I2HV
+      websiteendpoint: s3-website-sa-east-1.amazonaws.com
+      CDNhostedzoneID: Z2FDTNDATAQYW2
+
+Resources:
+
+#  ____   _    _   _____  _  __ ______  _______ 
+# |  _ \ | |  | | / ____|| |/ /|  ____||__   __|
+# | |_) || |  | || |     | ' / | |__      | |   
+# |  _ < | |  | || |     |  <  |  __|     | |   
+# | |_) || |__| || |____ | . \ | |____    | |   
+# |____/  \____/  \_____||_|\_\|______|   |_|   
+#                                               
+                                               
+  WebsiteBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: 
+        "Fn::If" :
+          - CreateProdResource
+          - !Ref DomainName
+          - !Sub "${Environments}.${DomainName}"
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: 404.html
+    DeletionPolicy: Retain
+
+  WebsiteBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref WebsiteBucket
+      PolicyDocument:
+        Statement:
+        - Sid: PublicReadForGetBucketObjects
+          Effect: Allow
+          Principal: '*'
+          Action: s3:GetObject
+          Resource: !Join ['', ['arn:aws:s3:::', !Ref 'WebsiteBucket', /*]]
+
+#  _____   _   _   _____ 
+# |  __ \ | \ | | / ____|
+# | |  | ||  \| || (___  
+# | |  | || . ` | \___ \ 
+# | |__| || |\  | ____) |
+# |_____/ |_| \_||_____/ 
+#                        
+                        
+  Route53RecordSetGroupStage:
+    Type: AWS::Route53::RecordSetGroup
+    Condition: CreateStageResource
+    Properties:
+      HostedZoneName: !Sub '${DomainName}.'
+      RecordSets:
+      - Name: !Sub '${Environments}.${DomainName}' 
+        Type: A
+        AliasTarget:
+          DNSName:
+            'Fn::FindInMap':
+              - RegionMap
+              - !Ref 'AWS::Region'
+              - websiteendpoint
+          HostedZoneId: 
+            'Fn::FindInMap':
+              - RegionMap
+              - !Ref 'AWS::Region'
+              - S3hostedzoneID
+
+  WebsiteDNSName:
+    Type: AWS::Route53::RecordSetGroup
+    Condition: CreateProdResource
+    Properties:
+      HostedZoneName: !Join ['', [!Ref 'DomainName', .]]
+      RecordSets:
+      - Name: !Sub '${DomainName}.'
+        Type: A
+        AliasTarget:
+          DNSName: !GetAtt [WebsiteCloudfront, DomainName]  
+          HostedZoneId: 
+            'Fn::FindInMap':
+              - RegionMap
+              - !Ref 'AWS::Region'
+              - CDNhostedzoneID 
+      - Name: !Sub 'www.${DomainName}.'
+        Type: A
+        AliasTarget:
+          DNSName: !GetAtt [WebsiteCloudfront, DomainName]  
+          HostedZoneId: 
+            'Fn::FindInMap':
+              - RegionMap
+              - !Ref 'AWS::Region'
+              - CDNhostedzoneID 
+#  _                 __  __  ____   _____           
+# | |         /\    |  \/  ||  _ \ |  __ \    /\    
+# | |        /  \   | \  / || |_) || |  | |  /  \   
+# | |       / /\ \  | |\/| ||  _ < | |  | | / /\ \  
+# | |____  / ____ \ | |  | || |_) || |__| |/ ____ \ 
+# |______|/_/    \_\|_|  |_||____/ |_____//_/    \_\
+#                                                   
+
+  LambdaIAMRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      RoleName: !Sub '${Environments}-${ProjectName}-lambda-translator-role'
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      Path: /
+      Policies:
+        - PolicyName: root
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 's3:GetBucketNotification'
+                  - 's3:PutBucketNotification'
+                Resource: !Sub 'arn:aws:s3:::*'
+              - Effect: Allow
+                Action:
+                  - 's3:PutObject'
+                  - 's3:PutObjectAcl'
+                  - 's3:GetObjectAcl'
+                  - 's3:PutBucketAcl'
+                Resource: 
+                  - !Sub 'arn:aws:s3:::*'
+                  - !Sub 'arn:aws:s3:::*/*'           
+              - Effect: Allow
+                Action:
+                  - 'logs:CreateLogGroup'
+                  - 'logs:CreateLogStream'
+                  - 'logs:PutLogEvents'
+                Resource: 'arn:aws:logs:*:*:*'
+              - Effect: Allow
+                Action:
+                  - 'translate:TranslateText'
+                Resource: '*'
+
+  EventProcessor:
+    Type: AWS::Serverless::Function
+    Properties:
+      Description: 'AWS Lambda to translate the site'
+      FunctionName: !Sub '${Environments}-${ProjectName}-translator'
+      Handler: lambda.handler
+      CodeUri: ./src
+      Events:
+        EventTrigger1:
+          Type: S3
+          Properties:
+            Bucket: !Ref WebsiteBucket
+            Events: s3:ObjectCreated:*
+            Filter:
+              S3Key:
+                Rules:
+                - Name: suffix
+                  Value: html
+      Role: !GetAtt LambdaIAMRole.Arn
+
+#   _____  _____   _   _ 
+#  / ____||  __ \ | \ | |
+# | |     | |  | ||  \| |
+# | |     | |  | || . ` |
+# | |____ | |__| || |\  |
+#  \_____||_____/ |_| \_|
+#                        
+
+  WebsiteCloudfront:
+    Type: AWS::CloudFront::Distribution
+    Condition: CreateProdResource
+    DependsOn:
+    - WebsiteBucket
+    Properties:
+      DistributionConfig:
+        Comment: Cloudfront Distribution pointing to S3 bucket
+        Origins:
+        - DomainName: !Select [2, !Split ["/", !GetAtt WebsiteBucket.WebsiteURL]]
+          Id: S3Origin
+          CustomOriginConfig:
+            HTTPPort: '80'
+            HTTPSPort: '443'
+            OriginProtocolPolicy: http-only
+        #Removed, Can not use with Clear URL.
+        #- DomainName: !Sub "${WebsiteBucket}.s3.amazonaws.com"
+        #  Id: S3Origin
+        #  S3OriginConfig:
+        #    OriginAccessIdentity: !Sub 'origin-access-identity/cloudfront/${CloudFrontOriginAccessIdentity}'
+        Enabled: true
+        HttpVersion: 'http2'
+        DefaultRootObject: index.html
+        CustomErrorResponses:
+          - ErrorCachingMinTTL: 300
+            ErrorCode: 403
+            ResponseCode: 404
+            ResponsePagePath: /404.html
+        Aliases:
+        - !Ref DomainName
+        - !Sub 'www.${DomainName}'
+        DefaultCacheBehavior:
+          AllowedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+          CachedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+          Compress: true
+          DefaultTTL: 3600 # in seconds
+          TargetOriginId: S3Origin
+          ForwardedValues:
+            QueryString: true
+            Cookies:
+              Forward: none
+          MaxTTL: 86400 # in seconds
+          MinTTL: 60 # in seconds
+          ViewerProtocolPolicy: redirect-to-https
+        PriceClass: PriceClass_All
+        ViewerCertificate:
+          AcmCertificateArn: !Ref AcmCertificateArn
+          MinimumProtocolVersion: TLSv1
+          SslSupportMethod: sni-only
+
+  #Removed, Can not use with Clear URL.
+  #CloudFrontOriginAccessIdentity:
+  #  Type: 'AWS::CloudFront::CloudFrontOriginAccessIdentity'
+  #  Condition: CreateProdResource
+  #  Properties:
+  #    CloudFrontOriginAccessIdentityConfig:
+  #      Comment: !Ref WebsiteBucket
+
+#   ____   _    _  _______  _____   _    _  _______  _____ 
+#  / __ \ | |  | ||__   __||  __ \ | |  | ||__   __|/ ____|
+# | |  | || |  | |   | |   | |__) || |  | |   | |  | (___  
+# | |  | || |  | |   | |   |  ___/ | |  | |   | |   \___ \ 
+# | |__| || |__| |   | |   | |     | |__| |   | |   ____) |
+#  \____/  \____/    |_|   |_|      \____/    |_|  |_____/ 
+#                                                                                                    
+
+Outputs:
+  S3WebsiteBucket:
+    Description: S3 Bucket to host website
+    Value: !Ref WebsiteBucket
+  EventProcessorFunction:
+    Description: ARN for the EventProcessor Lambda Function
+    Value: !GetAtt EventProcessor.Arn

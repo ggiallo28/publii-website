@@ -1,0 +1,24 @@
+[
+  {
+    "ParameterKey": "Environments",
+    "ParameterValue": "production"
+  },
+  {
+    "ParameterKey": "ProjectName",
+    "ParameterValue": "publii-blog"
+  },
+  {
+    "ParameterKey": "DomainName",
+    "ParameterValue": "gmucciolo.it"
+  },
+  {
+    "ParameterKey": "AcmCertificateArn",
+    "ParameterValue": "arn:aws:acm:us-east-1:438591499564:certificate/6dc4d696-5014-4a58-9205-53aa7acaa0aa"
+  },
+  {
+    "ParameterKey": "TerminologyName",
+    "ParameterValue": "publii"
+  }
+]
+
+

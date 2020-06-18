@@ -82,7 +82,7 @@
         "galleryPreloader": true,
         "galleryCloseOnScroll": true,
         "galleryArrowKeys": true,
-        "formatDate": "MMMM D, YYYY",
+        "formatDate": "D MMMM YYYY",
         "formatDateCustom": "HH:mm:ss YY/MM/DD",
         "lazyLoadEffect": "fadein",
         "faviconUpload": "media/website/android-chrome-512x512-2.png",

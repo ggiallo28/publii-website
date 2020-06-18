@@ -6,7 +6,7 @@
         "color": 1,
         "icon": "web-rocket"
     },
-    "domain": "http://gmucciolo.it",
+    "domain": "https://gmucciolo.it",
     "language": "en",
     "spellchecking": true,
     "advanced": {
@@ -188,5 +188,5 @@
         }
     },
     "theme": "taste",
-    "syncDate": 1592339414667
+    "syncDate": 1592515462177
 }
