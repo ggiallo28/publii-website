@@ -82,7 +82,7 @@
         },
         "ampIsEnabled": true,
         "ampPrimaryColor": "#039be5",
-        "ampImage": "",
+        "ampImage": "GialloB-2.png",
         "ampShare": 1,
         "ampShareSystem": 1,
         "ampShareFacebook": false,
@@ -188,5 +188,5 @@
         }
     },
     "theme": "taste",
-    "syncDate": 1592515462177
+    "syncDate": 1592517419445
 }

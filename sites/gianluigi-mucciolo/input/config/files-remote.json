@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "78bc1fe57896a43c7df6baeb224d75fd"
+        "md5": "fdbabfdc6f1136439623e20bb0176d60"
     },
     {
         "path": "StaticWebSite.svg",
@@ -32,7 +32,7 @@
     {
         "path": "/amp/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "3980c506b99ebca0b352f06af9acc38d"
+        "md5": "7ce24a237f64adb96fc99474d2a6763c"
     },
     {
         "path": "amp/blog",
@@ -47,7 +47,7 @@
     {
         "path": "/amp/blog/automation/index.html",
         "type": "file",
-        "md5": "a577b48efb004cfa7e39454af63cbfa0"
+        "md5": "7e665f88cccc98bf959fa1bd8188f052"
     },
     {
         "path": "amp/blog/guide",
@@ -57,7 +57,7 @@
     {
         "path": "/amp/blog/guide/index.html",
         "type": "file",
-        "md5": "edc46f35f27f796c5a47a3a13ede006a"
+        "md5": "7feef35709b416dc65d47cb186770975"
     },
     {
         "path": "amp/blog/talks",
@@ -67,7 +67,7 @@
     {
         "path": "/amp/blog/talks/index.html",
         "type": "file",
-        "md5": "675cfdd985524185c9587c7f8d1f300e"
+        "md5": "57de37cfbd9495fb0b1d25c9f3c4fce6"
     },
     {
         "path": "amp/blog/where-everything-started",
@@ -77,7 +77,7 @@
     {
         "path": "/amp/blog/where-everything-started/index.html",
         "type": "file",
-        "md5": "863ea7cd7cb540ffda8cf051d1569245"
+        "md5": "0d6460bcfbd9b54342043b91cca01953"
     },
     {
         "path": "amp/create-a-personal-website",
@@ -87,7 +87,7 @@
     {
         "path": "/amp/create-a-personal-website/index.html",
         "type": "file",
-        "md5": "c975af4941d93a52c3cdb3056f442ccd"
+        "md5": "d2c007cd20e51e8392cf64fa5e79a835"
     },
     {
         "path": "amp/do-you-automate",
@@ -97,12 +97,12 @@
     {
         "path": "/amp/do-you-automate/index.html",
         "type": "file",
-        "md5": "609f5d371b3b04126e50f440a937e22c"
+        "md5": "427a081ad473b93da7e674884cbe9cec"
     },
     {
         "path": "/amp/index.html",
         "type": "file",
-        "md5": "b1de139511e4e0dd7a95bbf91fad4f7e"
+        "md5": "c40e80f233bb75069eb2ef6925f94d4b"
     },
     {
         "path": "amp/initial-commit",
@@ -112,7 +112,7 @@
     {
         "path": "/amp/initial-commit/index.html",
         "type": "file",
-        "md5": "5c526cdd11d5c36e9f3f81df77b93941"
+        "md5": "a086c86b61069bd2b6f90bae42eb00bc"
     },
     {
         "path": "assets",
@@ -212,7 +212,7 @@
     {
         "path": "/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "4d09aec073e26fed1c8c1cb56bf4abaf"
+        "md5": "1a4ef120825cd234e1a30ce3e0e6e959"
     },
     {
         "path": "blog",
@@ -227,7 +227,7 @@
     {
         "path": "/blog/automation/index.html",
         "type": "file",
-        "md5": "9b098985c387590d6a9057f1cb3dbe07"
+        "md5": "290f187431b25ebd1b07ddfde16e0a0d"
     },
     {
         "path": "blog/guide",
@@ -237,7 +237,7 @@
     {
         "path": "/blog/guide/index.html",
         "type": "file",
-        "md5": "0b93d8799dc938408b72ad54134a4a35"
+        "md5": "26fd95275cae20e8969d203271d71b47"
     },
     {
         "path": "blog/talks",
@@ -247,7 +247,7 @@
     {
         "path": "/blog/talks/index.html",
         "type": "file",
-        "md5": "c9d67a1cf74020ea7ca50591f72cd974"
+        "md5": "80a061918a6fa93dc9d974e9c82f55f2"
     },
     {
         "path": "blog/where-everything-started",
@@ -257,7 +257,7 @@
     {
         "path": "/blog/where-everything-started/index.html",
         "type": "file",
-        "md5": "6ec297dd822151e1dd1e8caa833e48ee"
+        "md5": "3c9cc2e57689869b1c94d61cc3ad25c4"
     },
     {
         "path": "create-a-personal-website",
@@ -267,7 +267,7 @@
     {
         "path": "/create-a-personal-website/index.html",
         "type": "file",
-        "md5": "db4a323885b26b9f1a404a56f41f855b"
+        "md5": "5890593c14e6c2eac2a63bf50a1f8516"
     },
     {
         "path": "do-you-automate",
@@ -277,22 +277,22 @@
     {
         "path": "/do-you-automate/index.html",
         "type": "file",
-        "md5": "e209c04615f00da9ae83cf2e46071c02"
+        "md5": "71e3a179f3314583182cdc5ca21ff2d6"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "2db9591af54ec57d444d8b2f996e9b94"
+        "md5": "220ef4f2865d7f45d67c2b5c4b33a93c"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "027c542be28de74f569e53c7cddef7e8"
+        "md5": "8dbe663d9ffd9344f8c24264bb2a91af"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "1e81bfd6e55d3b6b9e88cd0d7d0e5b74"
+        "md5": "7e5f202134fc39303c69b00e16dfe6ac"
     },
     {
         "path": "initial-commit",
@@ -302,7 +302,7 @@
     {
         "path": "/initial-commit/index.html",
         "type": "file",
-        "md5": "fbbc39d79da7b2a5a1301e5404d3af39"
+        "md5": "929495269b19d83f8275ec4cc12663a1"
     },
     {
         "path": "media",
@@ -647,12 +647,12 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "f0e44e66154d56d6aec2f456994a0c19"
+        "md5": "c2a432e47107c2b5bbbd858326401ae6"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "461fd01645be7fe5969e7e2a8462ca0a"
+        "md5": "13f0bdd233c08cb6faca7fa2a099c914"
     },
     {
         "path": "sitemap.xsl",

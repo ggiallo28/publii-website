@@ -140,7 +140,7 @@ Resources:
     Type: AWS::Route53::RecordSetGroup
     Condition: CreateProdResource
     Properties:
-      HostedZoneName: !Join ['', [!Ref 'DomainName', .]]
+      HostedZoneName: !Sub '${DomainName}.'
       RecordSets:
       - Name: !Sub '${DomainName}.'
         Type: A
@@ -159,7 +159,21 @@ Resources:
             'Fn::FindInMap':
               - RegionMap
               - !Ref 'AWS::Region'
-              - CDNhostedzoneID 
+              - CDNhostedzoneID
+      - Name: !Sub 'nocache.${DomainName}.'
+        Type: CNAME
+        TTL: 300
+        ResourceRecords:
+          - 
+            'Fn::Sub':
+              - '${BucketName}.${S3Domain}'
+              - BucketName: !Ref WebsiteBucket
+                S3Domain:
+                  'Fn::FindInMap':
+                    - RegionMap
+                    - !Ref 'AWS::Region'
+                    - websiteendpoint
+
 #  _                 __  __  ____   _____           
 # | |         /\    |  \/  ||  _ \ |  __ \    /\    
 # | |        /  \   | \  / || |_) || |  | |  /  \   
