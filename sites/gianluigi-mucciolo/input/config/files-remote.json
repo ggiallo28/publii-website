@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "fdbabfdc6f1136439623e20bb0176d60"
+        "md5": "882ee87a942f9c3b432854d63e93fc61"
     },
     {
         "path": "StaticWebSite.svg",
@@ -32,7 +32,7 @@
     {
         "path": "/amp/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "7ce24a237f64adb96fc99474d2a6763c"
+        "md5": "9ea01ac77c2519c26260918e2450534f"
     },
     {
         "path": "amp/blog",
@@ -47,7 +47,7 @@
     {
         "path": "/amp/blog/automation/index.html",
         "type": "file",
-        "md5": "7e665f88cccc98bf959fa1bd8188f052"
+        "md5": "e7c4ce7c1255fdbc303d14beb3b66dec"
     },
     {
         "path": "amp/blog/guide",
@@ -57,7 +57,7 @@
     {
         "path": "/amp/blog/guide/index.html",
         "type": "file",
-        "md5": "7feef35709b416dc65d47cb186770975"
+        "md5": "8d5c9b771220f0a04a715e9a83ec5bb3"
     },
     {
         "path": "amp/blog/talks",
@@ -67,7 +67,7 @@
     {
         "path": "/amp/blog/talks/index.html",
         "type": "file",
-        "md5": "57de37cfbd9495fb0b1d25c9f3c4fce6"
+        "md5": "28dbb19ba73d4ff7d3f3fe97475870c7"
     },
     {
         "path": "amp/blog/where-everything-started",
@@ -77,7 +77,17 @@
     {
         "path": "/amp/blog/where-everything-started/index.html",
         "type": "file",
-        "md5": "0d6460bcfbd9b54342043b91cca01953"
+        "md5": "c5edf98c86f06ed5e305cc7ccd0b4a31"
+    },
+    {
+        "path": "amp/cloudoformation-iac",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/amp/cloudoformation-iac/index.html",
+        "type": "file",
+        "md5": "ed5c9729d42e4db1c3473f69c3474e6b"
     },
     {
         "path": "amp/create-a-personal-website",
@@ -87,7 +97,7 @@
     {
         "path": "/amp/create-a-personal-website/index.html",
         "type": "file",
-        "md5": "d2c007cd20e51e8392cf64fa5e79a835"
+        "md5": "b02dffb420267c51a224edf970e5f4b8"
     },
     {
         "path": "amp/do-you-automate",
@@ -97,12 +107,12 @@
     {
         "path": "/amp/do-you-automate/index.html",
         "type": "file",
-        "md5": "427a081ad473b93da7e674884cbe9cec"
+        "md5": "f838bf705176da7724dd2a2cafff80a4"
     },
     {
         "path": "/amp/index.html",
         "type": "file",
-        "md5": "c40e80f233bb75069eb2ef6925f94d4b"
+        "md5": "04e5c1851bec08a594790049fa8e6ff9"
     },
     {
         "path": "amp/initial-commit",
@@ -112,7 +122,7 @@
     {
         "path": "/amp/initial-commit/index.html",
         "type": "file",
-        "md5": "a086c86b61069bd2b6f90bae42eb00bc"
+        "md5": "f486e2063db3a2c16da6b232cc3ee785"
     },
     {
         "path": "assets",
@@ -142,7 +152,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "16f6d78ab9f2d107e005df0cd07db9a6"
+        "md5": "28479eb7d8ecc6b9c8c6580965d9172b"
     },
     {
         "path": "assets/js",
@@ -212,7 +222,7 @@
     {
         "path": "/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "1a4ef120825cd234e1a30ce3e0e6e959"
+        "md5": "1a0c5811f41495b71a57ef02799c96aa"
     },
     {
         "path": "blog",
@@ -227,7 +237,7 @@
     {
         "path": "/blog/automation/index.html",
         "type": "file",
-        "md5": "290f187431b25ebd1b07ddfde16e0a0d"
+        "md5": "12c0ac19d0d1ba111287bd44e167762d"
     },
     {
         "path": "blog/guide",
@@ -237,7 +247,7 @@
     {
         "path": "/blog/guide/index.html",
         "type": "file",
-        "md5": "26fd95275cae20e8969d203271d71b47"
+        "md5": "d64d9966a88634ffb0686ead0a08b409"
     },
     {
         "path": "blog/talks",
@@ -247,7 +257,7 @@
     {
         "path": "/blog/talks/index.html",
         "type": "file",
-        "md5": "80a061918a6fa93dc9d974e9c82f55f2"
+        "md5": "d2f32b451ceec8e89d6d007711572075"
     },
     {
         "path": "blog/where-everything-started",
@@ -257,7 +267,17 @@
     {
         "path": "/blog/where-everything-started/index.html",
         "type": "file",
-        "md5": "3c9cc2e57689869b1c94d61cc3ad25c4"
+        "md5": "1400db35face5dcb59a5d13ae7f0266d"
+    },
+    {
+        "path": "cloudoformation-iac",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/cloudoformation-iac/index.html",
+        "type": "file",
+        "md5": "5e22941ab8f0ad49e0ed45102c1dae4a"
     },
     {
         "path": "create-a-personal-website",
@@ -267,7 +287,7 @@
     {
         "path": "/create-a-personal-website/index.html",
         "type": "file",
-        "md5": "5890593c14e6c2eac2a63bf50a1f8516"
+        "md5": "f385068ef59ca397c934bb315ef382ee"
     },
     {
         "path": "do-you-automate",
@@ -277,22 +297,22 @@
     {
         "path": "/do-you-automate/index.html",
         "type": "file",
-        "md5": "71e3a179f3314583182cdc5ca21ff2d6"
+        "md5": "822ed175577336913c138fca4de616b5"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "220ef4f2865d7f45d67c2b5c4b33a93c"
+        "md5": "90bc58b13869f114e77fb587eb12fb57"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "8dbe663d9ffd9344f8c24264bb2a91af"
+        "md5": "66dddedb27619d5af6b23e83f89f8cea"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "7e5f202134fc39303c69b00e16dfe6ac"
+        "md5": "cd22c6392891809317834d5b1a5bec7c"
     },
     {
         "path": "initial-commit",
@@ -302,7 +322,7 @@
     {
         "path": "/initial-commit/index.html",
         "type": "file",
-        "md5": "929495269b19d83f8275ec4cc12663a1"
+        "md5": "5b124814e9ad31102ae9c10132a003c0"
     },
     {
         "path": "media",
@@ -438,6 +458,421 @@
         "path": "/media/posts/10/wordpress-on-aws.png",
         "type": "file",
         "md5": "db7a2aaeee17dd0e77406b6e043b0576"
+    },
+    {
+        "path": "media/posts/13",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/13/Diapositiva1-2.png",
+        "type": "file",
+        "md5": "a818b8067cf576eac6920e3715301369"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva10-2.png",
+        "type": "file",
+        "md5": "682e1eaa14c7f37ba99706457fb91a73"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva11-2.png",
+        "type": "file",
+        "md5": "ac46f92c433080965c018054c0c517d9"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva12.png",
+        "type": "file",
+        "md5": "821200141881d1cec3641b4210f02610"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva13.png",
+        "type": "file",
+        "md5": "e1e0598cda4a3d8cf43ba481dedbb568"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva14.png",
+        "type": "file",
+        "md5": "d18e7e61237dfdee3e70a0b980d51a6a"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva15.png",
+        "type": "file",
+        "md5": "aa44440f905308b6a8d44e2f918e3e58"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva16.png",
+        "type": "file",
+        "md5": "b85a89d68e1b490bc353160626bd9343"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva17.png",
+        "type": "file",
+        "md5": "0c1dc4590a844560d8b58b27ae4a7eba"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva18.png",
+        "type": "file",
+        "md5": "4e0a9e20c3c57fb3eafe1b7ddd3c3565"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva19.png",
+        "type": "file",
+        "md5": "9507fa73f28098c8da1247f0a9d254ca"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva2-2.png",
+        "type": "file",
+        "md5": "f316b51d96c4d16d513fd32955085ebb"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva20.png",
+        "type": "file",
+        "md5": "844c3fe94d970d808b890f56cd8e7be7"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva3-2.png",
+        "type": "file",
+        "md5": "d70644617a87523e70bddee4ec6b26f2"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva4-2.png",
+        "type": "file",
+        "md5": "f7e50621acc136a506939dbfb19fffa6"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva5-2.png",
+        "type": "file",
+        "md5": "954e660f32877a99d4886c36b701c6c5"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva6-2.png",
+        "type": "file",
+        "md5": "d1bf95badfe643f4e40b5f751b357ec9"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva7.png",
+        "type": "file",
+        "md5": "5e6168b8348daa21feaf0e64627a1ff1"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva8-2.png",
+        "type": "file",
+        "md5": "23a595d57a1319a5513cc5f93c569ae9"
+    },
+    {
+        "path": "/media/posts/13/Diapositiva9-2.png",
+        "type": "file",
+        "md5": "9d1837c5db5d83b3fa379cf5799b88ff"
+    },
+    {
+        "path": "media/posts/13/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva1-2-lg.png",
+        "type": "file",
+        "md5": "2f836b38703d81b8e29150028e5de178"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva1-2-md.png",
+        "type": "file",
+        "md5": "de568818f6231ffd663345b0eaf28ecb"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva1-2-sm.png",
+        "type": "file",
+        "md5": "6b394928eda0378c3d221a8047949dc3"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva1-2-xs.png",
+        "type": "file",
+        "md5": "cc6fcebb5f80e8d0c7c41a3eb2ea32c5"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva10-2-md.png",
+        "type": "file",
+        "md5": "5870101d41f3d91715d64a6b4f966091"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva10-2-sm.png",
+        "type": "file",
+        "md5": "1d910a58b24d607d28ea1b69a318ea9d"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva10-2-xs.png",
+        "type": "file",
+        "md5": "25daaad4fc606561d728bb07861e12d1"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva11-2-md.png",
+        "type": "file",
+        "md5": "437feea5db93928fe31244045c538667"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva11-2-sm.png",
+        "type": "file",
+        "md5": "f36421c9283e62165efeae95df851477"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva11-2-xs.png",
+        "type": "file",
+        "md5": "e107ea069c7defdfaf997c9d7cea7faa"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva12-md.png",
+        "type": "file",
+        "md5": "f2c948cd7f135bc22ca48b7ec36beec8"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva12-sm.png",
+        "type": "file",
+        "md5": "9d92dc5bbdbfd2d2491d94fc57e58a95"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva12-xs.png",
+        "type": "file",
+        "md5": "e3c7c44d504ef8660cb22ea142ce245b"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva13-md.png",
+        "type": "file",
+        "md5": "d048288f985bac69e4f0193ca877b837"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva13-sm.png",
+        "type": "file",
+        "md5": "1b121557e69ef36c541618d296276ccd"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva13-xs.png",
+        "type": "file",
+        "md5": "377fd744ea36ce1594cb853ab4d4cbd5"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva14-md.png",
+        "type": "file",
+        "md5": "860c8ae7516ea0ed4c131256cd903682"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva14-sm.png",
+        "type": "file",
+        "md5": "f78937c81ce9d594b158d42f311938e1"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva14-xs.png",
+        "type": "file",
+        "md5": "2b2aa5913694854ccc537202c9515778"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva15-md.png",
+        "type": "file",
+        "md5": "1b26adb5ed7180b83cc66d85af66c3f8"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva15-sm.png",
+        "type": "file",
+        "md5": "dcce58936c036557d8de4c595273d1bb"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva15-xs.png",
+        "type": "file",
+        "md5": "5d63b48b7c62496ff776aecacc770277"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva16-md.png",
+        "type": "file",
+        "md5": "22ef8d65aa6edcfe035c953709b5e1b9"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva16-sm.png",
+        "type": "file",
+        "md5": "12a9067b3d4ed724ac724b50b00f9ecb"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva16-xs.png",
+        "type": "file",
+        "md5": "fa342f4079a94abb2981b3946c565433"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva17-md.png",
+        "type": "file",
+        "md5": "94a1370a2c6e4786bfc14534752e3367"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva17-sm.png",
+        "type": "file",
+        "md5": "6f0ec1bcdba538043b3656d4ab35feb4"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva17-xs.png",
+        "type": "file",
+        "md5": "83fd60e1a10586f384d3e836a8a8d6ae"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva18-md.png",
+        "type": "file",
+        "md5": "42562d14882ace4c8d8d75f6699efb1f"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva18-sm.png",
+        "type": "file",
+        "md5": "78a18f2a732c10a7abf5460bd38bfb52"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva18-xs.png",
+        "type": "file",
+        "md5": "c1bbd306bb35c1bb467b51751d398860"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva19-md.png",
+        "type": "file",
+        "md5": "36c4f302aebeb410c67a08d7e5b905c7"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva19-sm.png",
+        "type": "file",
+        "md5": "0d699750b731129e3dba21d575d0d897"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva19-xs.png",
+        "type": "file",
+        "md5": "9b539f6a158855bbfe304ff04caacb4a"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva2-2-md.png",
+        "type": "file",
+        "md5": "31ad15432a003190560931b6194bd890"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva2-2-sm.png",
+        "type": "file",
+        "md5": "11899fad74e117b77692c47a9a15b021"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva2-2-xs.png",
+        "type": "file",
+        "md5": "6396e660bc8e8e7dfa80821d0ece9777"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva20-md.png",
+        "type": "file",
+        "md5": "3b4d843b614b734832f7e2442abd3230"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva20-sm.png",
+        "type": "file",
+        "md5": "21041bbf474f691efcdfb190bb771b21"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva20-xs.png",
+        "type": "file",
+        "md5": "e01b2705ec731045a153dbf63863fc3f"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva3-2-md.png",
+        "type": "file",
+        "md5": "0764f82382306c0fd551f3a41d084232"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva3-2-sm.png",
+        "type": "file",
+        "md5": "c1fc021db7acc085dbac736e3c796716"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva3-2-xs.png",
+        "type": "file",
+        "md5": "7d00c326e5f47f7b8532c7cdf7c00a50"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva4-2-md.png",
+        "type": "file",
+        "md5": "7d42f8f54c0a7dc3794729f47fc5290a"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva4-2-sm.png",
+        "type": "file",
+        "md5": "bc358b08f0f96121a8c33005bdbf24ba"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva4-2-xs.png",
+        "type": "file",
+        "md5": "bcf5333766a794b417987f76ebdfb1a3"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva5-2-md.png",
+        "type": "file",
+        "md5": "6fd699de688861609c34d2baf6fc6e44"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva5-2-sm.png",
+        "type": "file",
+        "md5": "6a575ef8680c4f08bcfd43d9a053f537"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva5-2-xs.png",
+        "type": "file",
+        "md5": "8a91d33797bd745ec761af790707359f"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva6-2-md.png",
+        "type": "file",
+        "md5": "f7720878e5fd4f78eb57a31815e47c5a"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva6-2-sm.png",
+        "type": "file",
+        "md5": "85b03dddf55bd9cb17152bb716a735d2"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva6-2-xs.png",
+        "type": "file",
+        "md5": "8785de591a27ec862c27547fbb6ad148"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva7-md.png",
+        "type": "file",
+        "md5": "75027b0dcfa506e85945d9403ce2cdde"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva7-sm.png",
+        "type": "file",
+        "md5": "aefa5cadc24c6650dc895732cc2da648"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva7-xs.png",
+        "type": "file",
+        "md5": "a3a2dbe0d333a6bb950f06c62e32450b"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva8-2-md.png",
+        "type": "file",
+        "md5": "323d4f176734db16bbbb1566d0771f57"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva8-2-sm.png",
+        "type": "file",
+        "md5": "f0b816fa89f852bc26e1cd1a814859ba"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva8-2-xs.png",
+        "type": "file",
+        "md5": "d995859bca7e8f993388afda67415178"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva9-2-md.png",
+        "type": "file",
+        "md5": "69ffbf6797cff4c80cbddf244d63c757"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva9-2-sm.png",
+        "type": "file",
+        "md5": "5dbc9a3d15b8ad895856421451df3691"
+    },
+    {
+        "path": "/media/posts/13/responsive/Diapositiva9-2-xs.png",
+        "type": "file",
+        "md5": "01de839342193dce433fd65323794f74"
     },
     {
         "path": "media/posts/8",
@@ -595,6 +1030,11 @@
         "md5": false
     },
     {
+        "path": "/media/website/GialloB-2.png",
+        "type": "file",
+        "md5": "9db554d8445abdae6c5459e5fbfefda8"
+    },
+    {
         "path": "/media/website/GialloB.png",
         "type": "file",
         "md5": "9db554d8445abdae6c5459e5fbfefda8"
@@ -613,6 +1053,16 @@
         "path": "media/website/responsive",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "/media/website/responsive/GialloB-2-sm.png",
+        "type": "file",
+        "md5": "01c6a09d75f58704c362698e65608d6d"
+    },
+    {
+        "path": "/media/website/responsive/GialloB-2-xs.png",
+        "type": "file",
+        "md5": "daba6ea27be69ba5c607b567ec0f19cf"
     },
     {
         "path": "/media/website/responsive/GialloB-sm.png",
@@ -647,12 +1097,12 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "c2a432e47107c2b5bbbd858326401ae6"
+        "md5": "ee593e116e93d5fa1926fc4193d81e57"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "13f0bdd233c08cb6faca7fa2a099c914"
+        "md5": "8899c07160665e0d3a1e3d9c3a71bd07"
     },
     {
         "path": "sitemap.xsl",

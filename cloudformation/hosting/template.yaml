@@ -160,7 +160,7 @@ Resources:
               - RegionMap
               - !Ref 'AWS::Region'
               - CDNhostedzoneID
-      - Name: !Sub 'nocache.${DomainName}.'
+      - Name: !Sub 'nc.${DomainName}.'
         Type: CNAME
         TTL: 300
         ResourceRecords:
@@ -278,7 +278,7 @@ Resources:
         HttpVersion: 'http2'
         DefaultRootObject: index.html
         CustomErrorResponses:
-          - ErrorCachingMinTTL: 300
+          - ErrorCachingMinTTL: 86400
             ErrorCode: 403
             ResponseCode: 404
             ResponsePagePath: /404.html
@@ -295,16 +295,16 @@ Resources:
             - HEAD
             - OPTIONS
           Compress: true
-          DefaultTTL: 3600 # in seconds
+          DefaultTTL: 18000 # in seconds
           TargetOriginId: S3Origin
           ForwardedValues:
             QueryString: true
             Cookies:
               Forward: none
           MaxTTL: 86400 # in seconds
-          MinTTL: 60 # in seconds
+          MinTTL: 3600 # in seconds
           ViewerProtocolPolicy: redirect-to-https
-        PriceClass: PriceClass_All
+        PriceClass: PriceClass_100
         ViewerCertificate:
           AcmCertificateArn: !Ref AcmCertificateArn
           MinimumProtocolVersion: TLSv1

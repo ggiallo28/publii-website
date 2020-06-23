@@ -4,7 +4,6 @@ sys.path.insert(0, "libs")
 
 from collections import namedtuple
 from bs4 import BeautifulSoup
-from bs4.element import Comment
 import boto3
 import json
 import os
@@ -61,7 +60,14 @@ def handler(event, context):
 
 	main_tag = soup.find('main')
 
+	skip_translate, skip_texts = main_tag.findAll(text=True, class_='skip_translate'), []
+	for value in skip_translate:
+	    skip_texts += value.findAll(text=True)
+
+	skip_texts = [id(t) for t in skip_texts]
 	for text in main_tag.findAll(text=True):
+		if id(text) in skip_texts:
+			continue
 		translated_text = translate(text)
 		text.replaceWith(translated_text)
 
