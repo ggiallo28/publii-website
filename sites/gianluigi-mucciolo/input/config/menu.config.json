@@ -6,10 +6,10 @@
             {
                 "id": 1590852135235,
                 "label": "Home",
-                "title": "",
+                "title": "Home Page",
                 "type": "frontpage",
                 "target": "_self",
-                "rel": "",
+                "rel": "Hope Page Selection",
                 "link": "empty",
                 "cssClass": "home-index-location",
                 "items": []
@@ -17,20 +17,20 @@
             {
                 "id": 1590853819211,
                 "label": "Categories",
-                "title": "",
+                "title": "Tags List",
                 "type": "separator",
                 "target": "_self",
-                "rel": "",
+                "rel": "Category Selection",
                 "link": "",
                 "cssClass": "",
                 "items": [
                     {
                         "id": 1590853830832,
                         "label": "Guide",
-                        "title": "",
+                        "title": "Step by Step Guides",
                         "type": "tag",
                         "target": "_self",
-                        "rel": "",
+                        "rel": "Category Selection",
                         "link": 7,
                         "cssClass": "",
                         "items": []
@@ -38,10 +38,10 @@
                     {
                         "id": 1590854771430,
                         "label": "Automation",
-                        "title": "",
+                        "title": "Automation is Awesome",
                         "type": "tag",
                         "target": "_self",
-                        "rel": "",
+                        "rel": "Category Selection",
                         "link": 5,
                         "cssClass": "",
                         "items": []
@@ -49,11 +49,22 @@
                     {
                         "id": 1590936790968,
                         "label": "Talks",
-                        "title": "",
+                        "title": "Public Speaking ",
                         "type": "tag",
                         "target": "_self",
-                        "rel": "",
+                        "rel": "Category Selection",
                         "link": 6,
+                        "cssClass": "",
+                        "items": []
+                    },
+                    {
+                        "id": 1594594403767,
+                        "label": "Data Processing",
+                        "title": "ML/Big Data",
+                        "type": "tag",
+                        "target": "_self",
+                        "rel": "Category Selection",
+                        "link": 9,
                         "cssClass": "",
                         "items": []
                     }
@@ -62,20 +73,20 @@
             {
                 "id": 1590851831371,
                 "label": "Resume",
-                "title": "",
+                "title": "Curriculum Vitae",
                 "type": "external",
                 "target": "_blank",
-                "rel": "",
+                "rel": "Curriculum Vitae Selector",
                 "link": "http://gmucciolo.it/cv/",
                 "cssClass": "",
                 "items": [
                     {
                         "id": 1590854458914,
                         "label": "Web View",
-                        "title": "",
+                        "title": "Web Curriculum Vitae",
                         "type": "external",
                         "target": "_blank",
-                        "rel": "",
+                        "rel": "Curriculum Vitae Visualizer",
                         "link": "http://gmucciolo.it/cv/",
                         "cssClass": "",
                         "items": []
@@ -83,10 +94,10 @@
                     {
                         "id": 1590854347873,
                         "label": "Download",
-                        "title": "",
+                        "title": "PDF Curriculum Vitae",
                         "type": "external",
                         "target": "_blank",
-                        "rel": "",
+                        "rel": "Curriculum Vitae Downloader",
                         "link": "http://gmucciolo.it/cv/vitae.pdf",
                         "cssClass": "",
                         "items": []
@@ -96,20 +107,20 @@
             {
                 "id": 1590851797866,
                 "label": "About me",
-                "title": "",
+                "title": "Personal Information",
                 "type": "separator",
                 "target": "_self",
-                "rel": "",
+                "rel": "Personal Information Selector",
                 "link": "",
                 "cssClass": "",
                 "items": [
                     {
                         "id": 1590851813846,
                         "label": "Author",
-                        "title": "",
+                        "title": "Gianluigi Mucciolo In a Nutshell",
                         "type": "author",
                         "target": "_self",
-                        "rel": "",
+                        "rel": "Gianluigi Mucciolo Descriptions",
                         "link": "gianluigi-mucciolo",
                         "cssClass": "",
                         "items": []
@@ -117,10 +128,10 @@
                     {
                         "id": 1590851898658,
                         "label": "LinkedIn",
-                        "title": "",
+                        "title": "Linkedin Page",
                         "type": "external",
                         "target": "_self",
-                        "rel": "",
+                        "rel": "Social Link",
                         "link": "https://www.linkedin.com/in/mucciolo91/",
                         "cssClass": "",
                         "items": []
@@ -128,10 +139,10 @@
                     {
                         "id": 1590851929787,
                         "label": "GitHub",
-                        "title": "",
+                        "title": "GitHub Page",
                         "type": "external",
                         "target": "_self",
-                        "rel": "",
+                        "rel": "Repository Link",
                         "link": "https://github.com/ggiallo28",
                         "cssClass": "",
                         "items": []
@@ -139,10 +150,10 @@
                     {
                         "id": 1591034127218,
                         "label": "Initial Commit",
-                        "title": "",
+                        "title": "Purpose of the Blog",
                         "type": "post",
                         "target": "_self",
-                        "rel": "",
+                        "rel": "Blog Description",
                         "link": 8,
                         "cssClass": "",
                         "items": []
@@ -152,20 +163,20 @@
             {
                 "id": 1591114200070,
                 "label": "EN",
-                "title": "",
+                "title": "Language Selector",
                 "type": "separator",
                 "target": "_self",
-                "rel": "",
+                "rel": "Language Selector",
                 "link": "",
                 "cssClass": "language",
                 "items": [
                     {
                         "id": 1591114208964,
                         "label": "IT",
-                        "title": "",
+                        "title": "Language Italian",
                         "type": "internal",
                         "target": "_self",
-                        "rel": "",
+                        "rel": "Language Italian",
                         "link": "index.html",
                         "cssClass": "language-it",
                         "items": []
@@ -173,10 +184,10 @@
                     {
                         "id": 1591114219879,
                         "label": "EN",
-                        "title": "",
+                        "title": "Language English",
                         "type": "internal",
                         "target": "_self",
-                        "rel": "",
+                        "rel": "Language English",
                         "link": "index.html",
                         "cssClass": "language-en",
                         "items": []
