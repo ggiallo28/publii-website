@@ -36,10 +36,10 @@
         "homepageNoIndexPagination": false,
         "metaRobotsIndex": "index, follow",
         "postMetaTitle": "%posttitle - %sitename ",
-        "postMetaDescription": "Each topic must have a Post. Machine Learning, Reinforcement Learning, Amazon Web Services, Deep Learning, Terraform , Ansible, Docker, Infrastructure as Code.",
+        "postMetaDescription": "",
         "postUseTextWithoutCustomExcerpt": false,
         "tagMetaTitle": "Tag: %tagname - %sitename",
-        "tagMetaDescription": "Each Post must have a Tag. Valid Tags are Guide, Automation, Talks, Course, Training, AWS Trainer Champion, Travels, Meetup, Technical Meetings.",
+        "tagMetaDescription": "",
         "tagNoIndexPagination": false,
         "tagNoPagination": false,
         "metaRobotsTags": "noindex, follow",
@@ -188,5 +188,5 @@
         }
     },
     "theme": "taste",
-    "syncDate": 1594595406366
+    "syncDate": 1594665649606
 }
