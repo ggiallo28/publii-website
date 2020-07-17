@@ -132,7 +132,7 @@
     {
         "path": "/amp/spark-and-hadoop-developer/index.html",
         "type": "file",
-        "md5": "2d1265f6c5055cf9e4844fe521fd7a1e"
+        "md5": "496d52669e93eedb626473b896bb9000"
     },
     {
         "path": "assets",
@@ -322,17 +322,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "d52713656b26ae66eed102ac804061b6"
+        "md5": "f68d966bdc2d3daef28447a0b9a03888"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "1bd49a19ccdd739e4ac10dcce489a1b4"
+        "md5": "866bbb451a048c4f7a4b469789a7f821"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "7e15be631a43f6b89d9589cd5427c363"
+        "md5": "37172f557be465e5485f0fd4eaf7f834"
     },
     {
         "path": "initial-commit",
@@ -920,14 +920,49 @@
         "md5": false
     },
     {
+        "path": "/media/posts/24/The_Spark_Stack.png",
+        "type": "file",
+        "md5": "bb6dfd1dcca96f50485f04f9fb03a724"
+    },
+    {
         "path": "/media/posts/24/apachesparklogo.png",
         "type": "file",
         "md5": "07405e15db3767af9a611548d8b27aed"
     },
     {
+        "path": "/media/posts/24/cluster-overview.png",
+        "type": "file",
+        "md5": "666180168b6b74f051967ec737fd48cc"
+    },
+    {
+        "path": "/media/posts/24/pyspark-run.svg",
+        "type": "file",
+        "md5": "6b53aa81260cf30ce2262d7732e922c8"
+    },
+    {
+        "path": "/media/posts/24/rdd-lineage.png",
+        "type": "file",
+        "md5": "aaf39a54a10660c9c3a94643127ebc71"
+    },
+    {
         "path": "media/posts/24/responsive",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "/media/posts/24/responsive/The_Spark_Stack-md.png",
+        "type": "file",
+        "md5": "2c08d05e628b6d2ccd848d541f683f40"
+    },
+    {
+        "path": "/media/posts/24/responsive/The_Spark_Stack-sm.png",
+        "type": "file",
+        "md5": "1ce61b42a221b4971f9ca855f0ed6bb2"
+    },
+    {
+        "path": "/media/posts/24/responsive/The_Spark_Stack-xs.png",
+        "type": "file",
+        "md5": "10ec792ce2993e583d0f03e44d752429"
     },
     {
         "path": "/media/posts/24/responsive/apachesparklogo-lg.png",
@@ -948,6 +983,56 @@
         "path": "/media/posts/24/responsive/apachesparklogo-xs.png",
         "type": "file",
         "md5": "7f5c01b6f8332c5fec7acd2d4f997880"
+    },
+    {
+        "path": "/media/posts/24/responsive/cluster-overview-md.png",
+        "type": "file",
+        "md5": "c7d01cba49a7e5b3fb7881609aed6d85"
+    },
+    {
+        "path": "/media/posts/24/responsive/cluster-overview-sm.png",
+        "type": "file",
+        "md5": "c95ce109f61e1f4b0d2d4094248dc3a6"
+    },
+    {
+        "path": "/media/posts/24/responsive/cluster-overview-xs.png",
+        "type": "file",
+        "md5": "c3835e9f8ec66b49265615b94dcb0d4c"
+    },
+    {
+        "path": "/media/posts/24/responsive/rdd-lineage-md.png",
+        "type": "file",
+        "md5": "1998a4e4f11e3c8119641b7698542145"
+    },
+    {
+        "path": "/media/posts/24/responsive/rdd-lineage-sm.png",
+        "type": "file",
+        "md5": "29b0f4a3d52aca2205a58ad324314538"
+    },
+    {
+        "path": "/media/posts/24/responsive/rdd-lineage-xs.png",
+        "type": "file",
+        "md5": "08f6a1c8c43840eb4acf5fbc283de201"
+    },
+    {
+        "path": "/media/posts/24/responsive/spark-session-create-2-md.png",
+        "type": "file",
+        "md5": "bfbf7b04e776f51e4c0fbfd2aff7792c"
+    },
+    {
+        "path": "/media/posts/24/responsive/spark-session-create-2-sm.png",
+        "type": "file",
+        "md5": "5dc3d36150b3f0a2119ce90b94136dc1"
+    },
+    {
+        "path": "/media/posts/24/responsive/spark-session-create-2-xs.png",
+        "type": "file",
+        "md5": "7bea415fdd39a42813019b40cb300695"
+    },
+    {
+        "path": "/media/posts/24/spark-session-create-2.png",
+        "type": "file",
+        "md5": "aef507df30596a337752a6d353fc3642"
     },
     {
         "path": "/media/posts/24/yarn-resources-2.svg",
@@ -1182,7 +1267,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "10416fe1f4e36292aa1c6d8ad01cc209"
+        "md5": "bfd63f06aa096cc49dd1d3552c9a0fcd"
     },
     {
         "path": "sitemap.xsl",
@@ -1197,6 +1282,6 @@
     {
         "path": "/spark-and-hadoop-developer/index.html",
         "type": "file",
-        "md5": "5793eb631d52abbd34c8b74240f15ee7"
+        "md5": "c03c19558e057f3dcd4722c9328aa6ae"
     }
 ]
