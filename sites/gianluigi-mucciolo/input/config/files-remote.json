@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "ddde36755dc0ed9938808b43e09d6162"
+        "md5": "ef9b02e2f95f6c6a37467b6973d476ce"
     },
     {
         "path": "amp",
@@ -22,7 +22,7 @@
     {
         "path": "/amp/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "7e4f6a2670b122d04c530dae5788bb1f"
+        "md5": "3b4e4ce70d3645b8b2c7f11f01149154"
     },
     {
         "path": "amp/blog",
@@ -47,7 +47,7 @@
     {
         "path": "/amp/blog/data-processing/index.html",
         "type": "file",
-        "md5": "19d647eaed0ae7993a0a78ab8acb0124"
+        "md5": "8db24868b29b3fdef0250f4ecd9e98e9"
     },
     {
         "path": "amp/blog/guide",
@@ -57,7 +57,7 @@
     {
         "path": "/amp/blog/guide/index.html",
         "type": "file",
-        "md5": "4569b7b0e18dffbb643bfa11ee0ae6ce"
+        "md5": "45ccfe4cdcd1a4b353c33448d2bc8e9d"
     },
     {
         "path": "amp/blog/talks",
@@ -112,7 +112,7 @@
     {
         "path": "/amp/index.html",
         "type": "file",
-        "md5": "095e2b42a8586d60bc3a2dcb5c0872ec"
+        "md5": "94c649dd8b9bde2ed3c05e239fce6213"
     },
     {
         "path": "amp/initial-commit",
@@ -132,7 +132,7 @@
     {
         "path": "/amp/spark-and-hadoop-developer/index.html",
         "type": "file",
-        "md5": "496d52669e93eedb626473b896bb9000"
+        "md5": "e1729e0dfdf84c0fbb1c6d60f4b6f685"
     },
     {
         "path": "assets",
@@ -162,7 +162,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "28479eb7d8ecc6b9c8c6580965d9172b"
+        "md5": "74a89e6784e08737c63eb1a2c10b5695"
     },
     {
         "path": "assets/js",
@@ -232,7 +232,7 @@
     {
         "path": "/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "d444a995d11876c51e9a6e1426d1231e"
+        "md5": "8c9b8dcd07f8c711aaf8a63992239522"
     },
     {
         "path": "blog",
@@ -247,7 +247,7 @@
     {
         "path": "/blog/automation/index.html",
         "type": "file",
-        "md5": "13019f22d7f3ee94a7aa93370137b695"
+        "md5": "d2c0f2720022cac26d8377cc87d1b8f2"
     },
     {
         "path": "blog/data-processing",
@@ -257,7 +257,7 @@
     {
         "path": "/blog/data-processing/index.html",
         "type": "file",
-        "md5": "acd2ad333fe6bde979c6f84ac3ee756e"
+        "md5": "1dc5a2be4cc23d674d09bd7131b7205e"
     },
     {
         "path": "blog/guide",
@@ -267,7 +267,7 @@
     {
         "path": "/blog/guide/index.html",
         "type": "file",
-        "md5": "0602410921781d88ad3787f252996629"
+        "md5": "fe764f2280c4de685a4442f0b3d45756"
     },
     {
         "path": "blog/talks",
@@ -277,7 +277,7 @@
     {
         "path": "/blog/talks/index.html",
         "type": "file",
-        "md5": "fa669787e77e246626e4b21796b389df"
+        "md5": "a1466eb3e9f9eefad616b837448b9fc3"
     },
     {
         "path": "blog/where-everything-started",
@@ -287,7 +287,7 @@
     {
         "path": "/blog/where-everything-started/index.html",
         "type": "file",
-        "md5": "e50ac70e7a00d8dc2faccbcf2bb077d1"
+        "md5": "3f127db416e274324d9f73cbea550434"
     },
     {
         "path": "cloudoformation-iac",
@@ -297,7 +297,7 @@
     {
         "path": "/cloudoformation-iac/index.html",
         "type": "file",
-        "md5": "0f472a658e93dc2ecab007cc1f8c4cb0"
+        "md5": "a20dae372acec1c4eee53eee182fd166"
     },
     {
         "path": "create-a-personal-website",
@@ -307,7 +307,7 @@
     {
         "path": "/create-a-personal-website/index.html",
         "type": "file",
-        "md5": "ad94dd79832be34caa2d33af320ccff6"
+        "md5": "4ac3974daba6b5e7e03d92628602cb61"
     },
     {
         "path": "do-you-automate",
@@ -317,22 +317,22 @@
     {
         "path": "/do-you-automate/index.html",
         "type": "file",
-        "md5": "325d0611f6872ec31e348f44cbba204e"
+        "md5": "e4a33d54802e0b29daa9f33f96d35513"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "f68d966bdc2d3daef28447a0b9a03888"
+        "md5": "ea60fd8d37ff5ff3391e1137d8fd0236"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "866bbb451a048c4f7a4b469789a7f821"
+        "md5": "d2a76b4fc3f82cd078b98991aa703b68"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "37172f557be465e5485f0fd4eaf7f834"
+        "md5": "04d2c6b83b4d625c0d44355b3825e54a"
     },
     {
         "path": "initial-commit",
@@ -342,7 +342,7 @@
     {
         "path": "/initial-commit/index.html",
         "type": "file",
-        "md5": "09d7fb81afe7d13e3d431359f4b545fc"
+        "md5": "034bd75e4c04374a06b3a63d04583bf6"
     },
     {
         "path": "media",
@@ -920,6 +920,16 @@
         "md5": false
     },
     {
+        "path": "/media/posts/24/DAG.png",
+        "type": "file",
+        "md5": "3bb3e3836a2ea49395209fde4dfe1e5f"
+    },
+    {
+        "path": "/media/posts/24/MapSidePartitions_large.png",
+        "type": "file",
+        "md5": "b31cad67c3ee2c94a483824e4d74e0a2"
+    },
+    {
         "path": "/media/posts/24/The_Spark_Stack.png",
         "type": "file",
         "md5": "bb6dfd1dcca96f50485f04f9fb03a724"
@@ -948,6 +958,36 @@
         "path": "media/posts/24/responsive",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "/media/posts/24/responsive/DAG-md.png",
+        "type": "file",
+        "md5": "d693536276174219b45353277ed226cf"
+    },
+    {
+        "path": "/media/posts/24/responsive/DAG-sm.png",
+        "type": "file",
+        "md5": "b6cc75fab7f09475a0637fde2dde8c5a"
+    },
+    {
+        "path": "/media/posts/24/responsive/DAG-xs.png",
+        "type": "file",
+        "md5": "4ab6ffdff4eac22a5e5e7ddba3c009b6"
+    },
+    {
+        "path": "/media/posts/24/responsive/MapSidePartitions_large-md.png",
+        "type": "file",
+        "md5": "0a8b8df45a454446674739a9f207ad29"
+    },
+    {
+        "path": "/media/posts/24/responsive/MapSidePartitions_large-sm.png",
+        "type": "file",
+        "md5": "82cff5bf2c59eee3fc33ddca7e02381c"
+    },
+    {
+        "path": "/media/posts/24/responsive/MapSidePartitions_large-xs.png",
+        "type": "file",
+        "md5": "27fdd43619418bfd97e7329e878e9999"
     },
     {
         "path": "/media/posts/24/responsive/The_Spark_Stack-md.png",
@@ -1015,6 +1055,21 @@
         "md5": "08f6a1c8c43840eb4acf5fbc283de201"
     },
     {
+        "path": "/media/posts/24/responsive/spar-joins-md.png",
+        "type": "file",
+        "md5": "bdec98c571cec814b9ddd4af02b6e10d"
+    },
+    {
+        "path": "/media/posts/24/responsive/spar-joins-sm.png",
+        "type": "file",
+        "md5": "bdec98c571cec814b9ddd4af02b6e10d"
+    },
+    {
+        "path": "/media/posts/24/responsive/spar-joins-xs.png",
+        "type": "file",
+        "md5": "ceca2eb6fab1dcb254519a243108fe3f"
+    },
+    {
         "path": "/media/posts/24/responsive/spark-session-create-2-md.png",
         "type": "file",
         "md5": "bfbf7b04e776f51e4c0fbfd2aff7792c"
@@ -1030,9 +1085,34 @@
         "md5": "7bea415fdd39a42813019b40cb300695"
     },
     {
+        "path": "/media/posts/24/responsive/toDebugString-2-md.png",
+        "type": "file",
+        "md5": "60feebebf7dd4df23125d5eb98b995fb"
+    },
+    {
+        "path": "/media/posts/24/responsive/toDebugString-2-sm.png",
+        "type": "file",
+        "md5": "dfd102a74e041a6e08efcb73b38f1556"
+    },
+    {
+        "path": "/media/posts/24/responsive/toDebugString-2-xs.png",
+        "type": "file",
+        "md5": "394f1a4160d8afb6c8df1f8a53330455"
+    },
+    {
+        "path": "/media/posts/24/spar-joins.png",
+        "type": "file",
+        "md5": "955b6d8953b4960bf5db60567a55f35f"
+    },
+    {
         "path": "/media/posts/24/spark-session-create-2.png",
         "type": "file",
         "md5": "aef507df30596a337752a6d353fc3642"
+    },
+    {
+        "path": "/media/posts/24/toDebugString-2.png",
+        "type": "file",
+        "md5": "4c2d7b197c8552b61cf25902fdf054fd"
     },
     {
         "path": "/media/posts/24/yarn-resources-2.svg",
@@ -1262,12 +1342,12 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "ada0b7b9b5aa3d20fae793f707e2d00f"
+        "md5": "66ea75060e220e812111f4e79099dd5a"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "bfd63f06aa096cc49dd1d3552c9a0fcd"
+        "md5": "a59d8e2d69f4804a8b9070d9d8bafa93"
     },
     {
         "path": "sitemap.xsl",
@@ -1282,6 +1362,6 @@
     {
         "path": "/spark-and-hadoop-developer/index.html",
         "type": "file",
-        "md5": "c03c19558e057f3dcd4722c9328aa6ae"
+        "md5": "247b2808244970ac1389eebc3e295885"
     }
 ]
