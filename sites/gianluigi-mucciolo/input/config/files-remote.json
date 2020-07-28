@@ -22,7 +22,7 @@
     {
         "path": "/amp/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "3b4e4ce70d3645b8b2c7f11f01149154"
+        "md5": "16a2f9096b923a42d1b5a799fe3c9f04"
     },
     {
         "path": "amp/blog",
@@ -47,7 +47,7 @@
     {
         "path": "/amp/blog/data-processing/index.html",
         "type": "file",
-        "md5": "8db24868b29b3fdef0250f4ecd9e98e9"
+        "md5": "8d153a038bc2a3f99e5bcfecc53cd52f"
     },
     {
         "path": "amp/blog/guide",
@@ -57,7 +57,7 @@
     {
         "path": "/amp/blog/guide/index.html",
         "type": "file",
-        "md5": "45ccfe4cdcd1a4b353c33448d2bc8e9d"
+        "md5": "e2242f7307da9633ed3df1f7c7b3333d"
     },
     {
         "path": "amp/blog/talks",
@@ -112,7 +112,7 @@
     {
         "path": "/amp/index.html",
         "type": "file",
-        "md5": "94c649dd8b9bde2ed3c05e239fce6213"
+        "md5": "9410c48f7030bc68ad27b52f1d6270ff"
     },
     {
         "path": "amp/initial-commit",
@@ -132,7 +132,7 @@
     {
         "path": "/amp/spark-and-hadoop-developer/index.html",
         "type": "file",
-        "md5": "e1729e0dfdf84c0fbb1c6d60f4b6f685"
+        "md5": "8bfc9460126c0686dc8fb51bb5e53d2a"
     },
     {
         "path": "assets",
@@ -232,7 +232,7 @@
     {
         "path": "/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "8c9b8dcd07f8c711aaf8a63992239522"
+        "md5": "98ffd93ea2cd25446f6424c817261d8b"
     },
     {
         "path": "blog",
@@ -257,7 +257,7 @@
     {
         "path": "/blog/data-processing/index.html",
         "type": "file",
-        "md5": "1dc5a2be4cc23d674d09bd7131b7205e"
+        "md5": "c62ebbf234455b5231acef694f8e0c6c"
     },
     {
         "path": "blog/guide",
@@ -267,7 +267,7 @@
     {
         "path": "/blog/guide/index.html",
         "type": "file",
-        "md5": "fe764f2280c4de685a4442f0b3d45756"
+        "md5": "5c2b450f7b9d0fe6e6c1a053d294c831"
     },
     {
         "path": "blog/talks",
@@ -322,17 +322,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "ea60fd8d37ff5ff3391e1137d8fd0236"
+        "md5": "a09eebf6c636ccd8c405c2a2c371456b"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "d2a76b4fc3f82cd078b98991aa703b68"
+        "md5": "6755dad709d4dfc307fd6a6ac8dbdc3d"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "04d2c6b83b4d625c0d44355b3825e54a"
+        "md5": "3a99d4631d5ac1962e508d54f73e1c14"
     },
     {
         "path": "initial-commit",
@@ -1347,7 +1347,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "a59d8e2d69f4804a8b9070d9d8bafa93"
+        "md5": "4628332ff67669e090b7652873d5ed09"
     },
     {
         "path": "sitemap.xsl",
@@ -1362,6 +1362,6 @@
     {
         "path": "/spark-and-hadoop-developer/index.html",
         "type": "file",
-        "md5": "247b2808244970ac1389eebc3e295885"
+        "md5": "8a546bb6ae0903c3c9c9ea6818e081cd"
     }
 ]
