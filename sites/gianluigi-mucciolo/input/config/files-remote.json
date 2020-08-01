@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "ef9b02e2f95f6c6a37467b6973d476ce"
+        "md5": "8231b696ad0e8f06d1c49dacdad37103"
     },
     {
         "path": "amp",
@@ -22,7 +22,7 @@
     {
         "path": "/amp/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "16a2f9096b923a42d1b5a799fe3c9f04"
+        "md5": "8a711a03d9f9d48b1ae29033e04e2a93"
     },
     {
         "path": "amp/blog",
@@ -47,7 +47,7 @@
     {
         "path": "/amp/blog/data-processing/index.html",
         "type": "file",
-        "md5": "8d153a038bc2a3f99e5bcfecc53cd52f"
+        "md5": "f4adba5c9864010769dc569470ec6b9d"
     },
     {
         "path": "amp/blog/guide",
@@ -57,7 +57,7 @@
     {
         "path": "/amp/blog/guide/index.html",
         "type": "file",
-        "md5": "e2242f7307da9633ed3df1f7c7b3333d"
+        "md5": "533266f8933611dda1bb112260e96f8f"
     },
     {
         "path": "amp/blog/talks",
@@ -112,7 +112,7 @@
     {
         "path": "/amp/index.html",
         "type": "file",
-        "md5": "9410c48f7030bc68ad27b52f1d6270ff"
+        "md5": "c1d659d3c2363dc2ef434e4f53c6911a"
     },
     {
         "path": "amp/initial-commit",
@@ -132,7 +132,7 @@
     {
         "path": "/amp/spark-and-hadoop-developer/index.html",
         "type": "file",
-        "md5": "8bfc9460126c0686dc8fb51bb5e53d2a"
+        "md5": "b70432f08b0ffc0885f6a909c7afc9ff"
     },
     {
         "path": "assets",
@@ -162,7 +162,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "74a89e6784e08737c63eb1a2c10b5695"
+        "md5": "dc55a8b60a1221ca61128d800c717265"
     },
     {
         "path": "assets/js",
@@ -232,7 +232,7 @@
     {
         "path": "/authors/gianluigi-mucciolo/index.html",
         "type": "file",
-        "md5": "98ffd93ea2cd25446f6424c817261d8b"
+        "md5": "1b4d897b734735f7ca23bf72f3d9a7c7"
     },
     {
         "path": "blog",
@@ -247,7 +247,7 @@
     {
         "path": "/blog/automation/index.html",
         "type": "file",
-        "md5": "d2c0f2720022cac26d8377cc87d1b8f2"
+        "md5": "5045ccef7c628af7c9f1e92eec61221c"
     },
     {
         "path": "blog/data-processing",
@@ -257,7 +257,7 @@
     {
         "path": "/blog/data-processing/index.html",
         "type": "file",
-        "md5": "c62ebbf234455b5231acef694f8e0c6c"
+        "md5": "23224554a9f813a9e6d32a8f287d2eb8"
     },
     {
         "path": "blog/guide",
@@ -267,7 +267,7 @@
     {
         "path": "/blog/guide/index.html",
         "type": "file",
-        "md5": "5c2b450f7b9d0fe6e6c1a053d294c831"
+        "md5": "361049c560436b544f50ff3ec6351558"
     },
     {
         "path": "blog/talks",
@@ -277,7 +277,7 @@
     {
         "path": "/blog/talks/index.html",
         "type": "file",
-        "md5": "a1466eb3e9f9eefad616b837448b9fc3"
+        "md5": "66eebc0b61fe8bf321fb534504a0e91c"
     },
     {
         "path": "blog/where-everything-started",
@@ -287,7 +287,7 @@
     {
         "path": "/blog/where-everything-started/index.html",
         "type": "file",
-        "md5": "3f127db416e274324d9f73cbea550434"
+        "md5": "22974bf399433496bc26e9ff0eaebddf"
     },
     {
         "path": "cloudoformation-iac",
@@ -297,7 +297,7 @@
     {
         "path": "/cloudoformation-iac/index.html",
         "type": "file",
-        "md5": "a20dae372acec1c4eee53eee182fd166"
+        "md5": "291af19812d784c84d2e1c91e94c4d5f"
     },
     {
         "path": "create-a-personal-website",
@@ -307,7 +307,7 @@
     {
         "path": "/create-a-personal-website/index.html",
         "type": "file",
-        "md5": "4ac3974daba6b5e7e03d92628602cb61"
+        "md5": "806c14623303663ff66fc4800e2d2cd4"
     },
     {
         "path": "do-you-automate",
@@ -317,22 +317,22 @@
     {
         "path": "/do-you-automate/index.html",
         "type": "file",
-        "md5": "e4a33d54802e0b29daa9f33f96d35513"
+        "md5": "72c957bd0cf14b07e29ffc1c1451e8d3"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "a09eebf6c636ccd8c405c2a2c371456b"
+        "md5": "00967959efe1dc72220bbb31490ca3e5"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "6755dad709d4dfc307fd6a6ac8dbdc3d"
+        "md5": "3527983a96343838dd74d95e948800f4"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "3a99d4631d5ac1962e508d54f73e1c14"
+        "md5": "4ec86c6254fd9b7ec2039a078e34f8a1"
     },
     {
         "path": "initial-commit",
@@ -342,7 +342,7 @@
     {
         "path": "/initial-commit/index.html",
         "type": "file",
-        "md5": "034bd75e4c04374a06b3a63d04583bf6"
+        "md5": "c4c9934ae59f7803a4b1641300d3a3db"
     },
     {
         "path": "media",
@@ -1055,6 +1055,21 @@
         "md5": "08f6a1c8c43840eb4acf5fbc283de201"
     },
     {
+        "path": "/media/posts/24/responsive/retail_data_model-md.png",
+        "type": "file",
+        "md5": "104bdcf7a1e130a591ef408fd6fc434f"
+    },
+    {
+        "path": "/media/posts/24/responsive/retail_data_model-sm.png",
+        "type": "file",
+        "md5": "96ec339a576525a0f94276a4131c9992"
+    },
+    {
+        "path": "/media/posts/24/responsive/retail_data_model-xs.png",
+        "type": "file",
+        "md5": "60127fa9045f24aac996675bcf876580"
+    },
+    {
         "path": "/media/posts/24/responsive/spar-joins-md.png",
         "type": "file",
         "md5": "bdec98c571cec814b9ddd4af02b6e10d"
@@ -1098,6 +1113,11 @@
         "path": "/media/posts/24/responsive/toDebugString-2-xs.png",
         "type": "file",
         "md5": "394f1a4160d8afb6c8df1f8a53330455"
+    },
+    {
+        "path": "/media/posts/24/retail_data_model.png",
+        "type": "file",
+        "md5": "c2cd4d43fd8acaec405db998d0c0b3d0"
     },
     {
         "path": "/media/posts/24/spar-joins.png",
@@ -1342,12 +1362,12 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "66ea75060e220e812111f4e79099dd5a"
+        "md5": "cfca3d763525ef39ba4a09c3e670b74d"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "4628332ff67669e090b7652873d5ed09"
+        "md5": "da8139d4a23afe609acf64b757156229"
     },
     {
         "path": "sitemap.xsl",
@@ -1362,6 +1382,6 @@
     {
         "path": "/spark-and-hadoop-developer/index.html",
         "type": "file",
-        "md5": "8a546bb6ae0903c3c9c9ea6818e081cd"
+        "md5": "281d13a0f6e8ffc57a49d4b42720087b"
     }
 ]
