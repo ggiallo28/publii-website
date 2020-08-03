@@ -69,4 +69,5 @@ pre.bash {
   font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
   width: 100%;
   display: inline-block;
+  margin-bottom: 0;
 }
