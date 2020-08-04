@@ -132,7 +132,7 @@
     {
         "path": "/amp/spark-and-hadoop-developer/index.html",
         "type": "file",
-        "md5": "6a92cc02a22cec83a258d91caaa27fe9"
+        "md5": "b08a0684112a20b4591eabaa2f3b47f0"
     },
     {
         "path": "assets",
@@ -322,17 +322,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "ba2d12a8993cf106ae6dd3047a376149"
+        "md5": "69c912aaebbe3732b80227c6e14246d5"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "0adee1f9f7fc43c9e68b7791ecf219d5"
+        "md5": "76ab9e68840065af37462379f9450113"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "1158b893d10c1015add4f4fe9c215f0f"
+        "md5": "d4c5e9b88199b71b5eb189861069f4f3"
     },
     {
         "path": "initial-commit",
@@ -1367,7 +1367,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "17c9ff8cf40ade9d1fa21c1fcca86c86"
+        "md5": "53abd2fb6d646dfa783507166bbc513f"
     },
     {
         "path": "sitemap.xsl",
@@ -1382,6 +1382,6 @@
     {
         "path": "/spark-and-hadoop-developer/index.html",
         "type": "file",
-        "md5": "de75283d0e8de4d2620c73dd7480c501"
+        "md5": "e276084f7a5cb636b3b5130a78604a4e"
     }
 ]
