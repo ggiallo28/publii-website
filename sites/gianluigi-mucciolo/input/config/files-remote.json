@@ -87,7 +87,7 @@
     {
         "path": "/amp/cloudoformation-iac/index.html",
         "type": "file",
-        "md5": "b0e055b2c4a9e391ea62c803281ae97e"
+        "md5": "d08a01ccab07fdbcdd11f5243cdbb8f3"
     },
     {
         "path": "amp/create-a-personal-website",
@@ -132,7 +132,7 @@
     {
         "path": "/amp/spark-and-hadoop-developer/index.html",
         "type": "file",
-        "md5": "b08a0684112a20b4591eabaa2f3b47f0"
+        "md5": "86748a356d98938cc09558a27ca8bcf2"
     },
     {
         "path": "assets",
@@ -297,7 +297,7 @@
     {
         "path": "/cloudoformation-iac/index.html",
         "type": "file",
-        "md5": "32b7f607745d490a471caee3d7fc4f0e"
+        "md5": "ef54354e2e8990f296eda69e8454dcfc"
     },
     {
         "path": "create-a-personal-website",
@@ -322,17 +322,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "69c912aaebbe3732b80227c6e14246d5"
+        "md5": "8d7a99133727b18798cb3b520a1ae8a5"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "76ab9e68840065af37462379f9450113"
+        "md5": "7ba73cad7534f762ca67529feebf4968"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "d4c5e9b88199b71b5eb189861069f4f3"
+        "md5": "5d29c51e7cc85c52ea217fdab1e19457"
     },
     {
         "path": "initial-commit",
@@ -935,6 +935,11 @@
         "md5": "bb6dfd1dcca96f50485f04f9fb03a724"
     },
     {
+        "path": "/media/posts/24/aggregateByKey-2.png",
+        "type": "file",
+        "md5": "902ccfc7e542810421f685276ee5e35b"
+    },
+    {
         "path": "/media/posts/24/apachesparklogo.png",
         "type": "file",
         "md5": "07405e15db3767af9a611548d8b27aed"
@@ -1003,6 +1008,21 @@
         "path": "/media/posts/24/responsive/The_Spark_Stack-xs.png",
         "type": "file",
         "md5": "10ec792ce2993e583d0f03e44d752429"
+    },
+    {
+        "path": "/media/posts/24/responsive/aggregateByKey-2-md.png",
+        "type": "file",
+        "md5": "64ff93d81327cd311ac3973a9080777f"
+    },
+    {
+        "path": "/media/posts/24/responsive/aggregateByKey-2-sm.png",
+        "type": "file",
+        "md5": "77e0a7a2156ee5c694dc2009893dbf51"
+    },
+    {
+        "path": "/media/posts/24/responsive/aggregateByKey-2-xs.png",
+        "type": "file",
+        "md5": "5bf2363892a570262fbfd24d055984eb"
     },
     {
         "path": "/media/posts/24/responsive/apachesparklogo-lg.png",
@@ -1085,6 +1105,21 @@
         "md5": "ceca2eb6fab1dcb254519a243108fe3f"
     },
     {
+        "path": "/media/posts/24/responsive/spark-cluster-md.png",
+        "type": "file",
+        "md5": "d2eac5018b094fd4a1fb3712c270c387"
+    },
+    {
+        "path": "/media/posts/24/responsive/spark-cluster-sm.png",
+        "type": "file",
+        "md5": "4311a5663e5d7d1ce1ff44a957628928"
+    },
+    {
+        "path": "/media/posts/24/responsive/spark-cluster-xs.png",
+        "type": "file",
+        "md5": "df4c95cd73503d97c8d13a0811301fa8"
+    },
+    {
         "path": "/media/posts/24/responsive/spark-session-create-2-md.png",
         "type": "file",
         "md5": "bfbf7b04e776f51e4c0fbfd2aff7792c"
@@ -1115,6 +1150,21 @@
         "md5": "394f1a4160d8afb6c8df1f8a53330455"
     },
     {
+        "path": "/media/posts/24/responsive/window-example-md.png",
+        "type": "file",
+        "md5": "4c1bbc659745edf4dd128b755a8546ce"
+    },
+    {
+        "path": "/media/posts/24/responsive/window-example-sm.png",
+        "type": "file",
+        "md5": "638ab4fe4ccc59b6bdb33fad96ad7d5d"
+    },
+    {
+        "path": "/media/posts/24/responsive/window-example-xs.png",
+        "type": "file",
+        "md5": "516c67451acd3a3a41c5b1ad39f7fa36"
+    },
+    {
         "path": "/media/posts/24/retail_data_model.png",
         "type": "file",
         "md5": "c2cd4d43fd8acaec405db998d0c0b3d0"
@@ -1125,6 +1175,11 @@
         "md5": "955b6d8953b4960bf5db60567a55f35f"
     },
     {
+        "path": "/media/posts/24/spark-cluster.png",
+        "type": "file",
+        "md5": "98d1c83dcb6e6d2ae03935086bdbf184"
+    },
+    {
         "path": "/media/posts/24/spark-session-create-2.png",
         "type": "file",
         "md5": "aef507df30596a337752a6d353fc3642"
@@ -1133,6 +1188,11 @@
         "path": "/media/posts/24/toDebugString-2.png",
         "type": "file",
         "md5": "4c2d7b197c8552b61cf25902fdf054fd"
+    },
+    {
+        "path": "/media/posts/24/window-example.png",
+        "type": "file",
+        "md5": "105cb71e9aee7d4062ee7a4319db4a1b"
     },
     {
         "path": "/media/posts/24/yarn-resources-2.svg",
@@ -1367,7 +1427,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "53abd2fb6d646dfa783507166bbc513f"
+        "md5": "5315af2b9ebc8cd9e83418f93d4b695e"
     },
     {
         "path": "sitemap.xsl",
@@ -1382,6 +1442,6 @@
     {
         "path": "/spark-and-hadoop-developer/index.html",
         "type": "file",
-        "md5": "e276084f7a5cb636b3b5130a78604a4e"
+        "md5": "f95fdd196b0ce082992b7e8e2a1f5409"
     }
 ]
