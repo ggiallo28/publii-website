@@ -33,26 +33,14 @@ def translate(source_text):
 	response = tr.translate_text(**request_body)
 
 	response['TranslatedText'] =\
-		(' ' if source_text[0].isspace() else '') +\
+		(' ' if source_text[0] == ' ' else '') +\
 		response['TranslatedText'] +\
-		(' ' if source_text[-1].isspace() and len(source_text) > 1 else '')
+		(' ' if source_text[-1] == ' ' else '')
 
 	return response['TranslatedText']
-	
-def get_from_s3(bucket, key, local_path):
-	with open(local_path, 'wb') as f:
-		s3.download_fileobj( bucket, key, f)
-	with open(local_path, 'rb') as file:
-		return 	file.read()
-	
-def save_to_s3(data, bucket, key, local_path, extra_args):
-	with open(local_path, "w") as file:
-		file.write(data)
-	with open(local_path, 'rb') as obj:
-		s3.upload_fileobj(obj, bucket, key, ExtraArgs=extra_args)
-
-	
+      
 def handler(event, context):
+
 	page = s3_parse_event(event)
 
 	if page.key.startswith(exclude_prefix):
@@ -63,49 +51,37 @@ def handler(event, context):
 
 	path_file = f'/tmp/{page.key}'
 	os.makedirs(os.path.dirname(path_file), exist_ok=True)
-	
-	html = get_from_s3(page.bucket, page.key, path_file)
-	soup = BeautifulSoup(html, 'html.parser')
-	
-	try:
-		translate_cache = json.loads(get_from_s3(page.bucket, f'it/{page.key}.json', path_file))
-	except:
-		print("Create new empty Translate Cache")
-		translate_cache = {}
+
+	with open(path_file, 'wb') as f:
+		s3.download_fileobj( page.bucket, page.key, f)
+
+	with open(path_file, 'rb') as file:
+		soup = BeautifulSoup(file.read(), 'html.parser')
 
 	main_tag = soup.find('main')
 
 	skip_translate, skip_texts = main_tag.findAll(text=True, class_='skip_translate'), []
-	skip_translate += main_tag.findAll(text=False, class_='skip_translate')
-	
 	for value in skip_translate:
 	    skip_texts += value.findAll(text=True)
 
 	skip_texts = [id(t) for t in skip_texts]
-	new_translate_cache = {}
 	for text in main_tag.findAll(text=True):
 		if id(text) in skip_texts:
 			continue
-
-		if text in translate_cache:
-			translated_text = translate_cache[text]
-		elif text in new_translate_cache:
-			translated_text = new_translate_cache[text]
-		else:
-			translated_text = translate(text)
-		
-		new_translate_cache[text] = translated_text
-			
+		translated_text = translate(text)
 		text.replaceWith(translated_text)
-	
+
+	with open(path_file, "w") as file:
+		file.write(str(soup))
+  
 	extra_args = {
 		'ACL' : 'public-read',
 		'CacheControl': 'no-cache, no-store',
 		'ContentType': 'text/html'
 	}
-	
-	save_to_s3(str(soup), page.bucket, f'it/{page.key}', path_file, extra_args)
-	save_to_s3(json.dumps(new_translate_cache), page.bucket, f'it/{page.key}.json', path_file, extra_args)
+
+	with open(path_file, 'rb') as data:
+		s3.upload_fileobj(data, page.bucket, f'it/{page.key}', ExtraArgs=extra_args)
 	
 	print('Done')
 	
